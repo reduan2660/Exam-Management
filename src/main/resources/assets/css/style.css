@@ -1,0 +1,16 @@
+#signUpBorder {
+  /* -fx-border-color: #000000; */
+  -fx-border-radius: 10px;
+  -fx-background-color: #f1f1f1;
+}
+
+.btn {
+  -fx-background-color: #24a0ed;
+  -fx-color: white;
+}
+
+.textBtn {
+  -fx-background-color: white;
+  -fx-color: #eeeeee00;
+  -fx-border-color: #eeeeee00;
+}
