@@ -1,7 +1,7 @@
-#signUpBorder {
-  /* -fx-border-color: #000000; */
-  -fx-border-radius: 10px;
-  -fx-background-color: #f1f1f1;
+.container {
+  -fx-background-color: white;
+  /* -fx-border-color: gray; */
+  -fx-border-radius: 10;
 }
 
 .btn {

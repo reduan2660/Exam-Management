@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.UserAuthorizationController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.LoginController">
    <children>
-      <VBox layoutX="237.0" layoutY="155.0" prefHeight="296.0" prefWidth="313.0">
+      <VBox layoutX="237.0" layoutY="134.0" prefHeight="297.0" prefWidth="313.0" style="-fx-border-color: #EEEEEE;" styleClass="container" stylesheets="@../../assets/css/style.css">
          <children>
-            <TextField fx:id="signUpEmail" prefHeight="36.0" prefWidth="252.0" promptText="Email">
+            <Label text="Email:">
+               <VBox.margin>
+                  <Insets left="20.0" top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="loginEmail" prefHeight="36.0" prefWidth="252.0" promptText="Email">
                <font>
                   <Font name="Cambria" size="16.0" />
                </font>
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
+                  <Insets left="20.0" right="20.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <PasswordField fx:id="signUpPassword" prefHeight="36.0" prefWidth="252.0" promptText="Password">
+            <Label text="Password:">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
                <font>
                   <Font name="Cambria" size="16.0" />
                </font>
-               <VBox.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
-               </VBox.margin>
-            </PasswordField>
-            <Button fx:id="signUpButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#signUp" prefHeight="35.0" prefWidth="443.0" style="-fx-background-color: #24A0ED;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Sign up as Instructor" textAlignment="JUSTIFY" textFill="WHITE">
-               <font>
-                  <Font name="Cambria" size="16.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
-               </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="447.0" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Sign up as Student" textFill="WHITE">
+            </Label>
+            <PasswordField fx:id="loginPassword" prefHeight="36.0" prefWidth="252.0" promptText="Password">
                <font>
                   <Font name="Cambria" size="16.0" />
                </font>
                <VBox.margin>
                   <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
                </VBox.margin>
+            </PasswordField>
+            <Button fx:id="loginBtn" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="443.0" style="-fx-background-color: #24A0ED;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Login" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
-            <Button alignment="CENTER" mnemonicParsing="false" styleClass="textBtn" stylesheets="@../../assets/css/style.css" text="Already have an account? Log in" textAlignment="CENTER">
+            <Button fx:id="signUpNavBtn" alignment="CENTER" mnemonicParsing="false" onAction="#navSignUp" styleClass="textBtn" stylesheets="@../../assets/css/style.css" text="Don't have an account? Sign up" textAlignment="CENTER">
                <font>
                   <Font name="Cambria" size="12.0" />
                </font>
                <VBox.margin>
-                  <Insets left="60.0" />
+                  <Insets left="62.0" />
                </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
          </children>
       </VBox>
