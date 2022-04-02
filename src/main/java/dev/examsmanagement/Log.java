@@ -6,22 +6,31 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Log {
-//    private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
-    static final boolean append = false;
-
+    static final boolean append = true;
 
 //    Logger LOGGER;
-    FileHandler handler = new FileHandler("logs.log", append);
-    Logger LOGGER = Logger.getLogger(Log.class.getName());
+    static FileHandler handler;
 
-    public Log() throws IOException {
-        System.setProperty(
-                "java.util.logging.SimpleFormatter.format",
-                "[%1$tF %1$tT] [%4$-7s] %5$s %n");
-        LOGGER.addHandler(handler);
+    {
+        try {
+            handler = new FileHandler("logs.log", append);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+    static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+//    static Logger LOGGER = Logger.getLogger(Log.class.getName());
 
-    public void info(String _message) { LOGGER.log(Level.INFO, _message); }
-    public void warning(String _message) { LOGGER.log(Level.WARNING, _message); }
-    public void fine(String _message) { LOGGER.log(Level.FINE, _message); }
+    public static void info(String _message) {
+        LOGGER.addHandler(handler);
+        LOGGER.log(Level.INFO, _message);
+    }
+    public static void warning(String _message) {
+        LOGGER.addHandler(handler);
+        LOGGER.log(Level.WARNING, _message);
+    }
+    public static void fine(String _message) {
+        LOGGER.addHandler(handler);
+        LOGGER.log(Level.FINE, _message);
+    }
 }

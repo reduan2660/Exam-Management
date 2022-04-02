@@ -29,8 +29,6 @@ public class LoginController {
     @FXML
     protected void login(ActionEvent event) throws IOException, SQLException {
 
-        Log loginLog = new Log();
-
         Connection conn = DBconnection.DBconnect();
         String sqlQ = "SELECT * FROM users WHERE email=\'" + loginEmail.getText() + "\' AND password=\'" + loginPassword.getText() + "\';";
 
@@ -41,7 +39,7 @@ public class LoginController {
             ResultSet rs = sqlSt.executeQuery(sqlQ);
 
 //            --- Save User to Session ---
-            User loggedUser = new User(rs.getInt("id"), rs.getString("email"), rs.getString("password"), rs.getInt("isinstructor"));
+            User loggedUser = new User(rs.getString("name"), rs.getString("email"), rs.getString("password"), rs.getInt("isinstructor"));
             Session.setCurrentUser(loggedUser);
 
 //            --- Switch Views ---
@@ -57,9 +55,10 @@ public class LoginController {
             stage.setScene(scene);
             stage.show();
 
+
         } catch (SQLException e) {
             e.printStackTrace();
-            loginLog.info("Wrong Credentials or Database Error");
+            Log.info("Wrong Credentials or Database Error");
             loginValidation.setText("Wrong Credentials.");
         }
 

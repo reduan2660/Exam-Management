@@ -4,11 +4,13 @@
 
 > Next up
 
-- Logging Format
-- Create Questions
+- Add students to courses
+- Create Tests
 
 > Done
 
+- Create course
+- One file logging
 - Basic Logging
 - Login / Logout
 - User session

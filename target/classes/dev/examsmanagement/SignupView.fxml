@@ -10,16 +10,32 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.SignUpController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.SignUpController">
    <children>
-      <VBox layoutX="237.0" layoutY="83.0" prefHeight="367.0" prefWidth="313.0" styleClass="container" stylesheets="@../../assets/css/style.css">
+      <VBox layoutX="484.0" layoutY="166.0" prefHeight="367.0" prefWidth="313.0" styleClass="container" stylesheets="@../../assets/css/style.css">
          <children>
-            <Label text="Email: ">
+            <Label text="Name:">
                <font>
                   <Font name="Cambria" size="16.0" />
                </font>
                <VBox.margin>
                   <Insets left="20.0" top="25.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="signUpName" promptText="Name">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </TextField>
+            <Label text="Email: ">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
                </VBox.margin>
             </Label>
             <TextField fx:id="signUpEmail" prefHeight="36.0" prefWidth="252.0" promptText="Email">

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
 <record>
-  <date>2022-04-02T08:17:21.274768300Z</date>
-  <millis>1648887441274</millis>
-  <nanos>768300</nanos>
+  <date>2022-04-02T15:17:34.672483800Z</date>
+  <millis>1648912654672</millis>
+  <nanos>483800</nanos>
   <sequence>0</sequence>
-  <logger>dev.examsmanagement.Log</logger>
+  <logger>global</logger>
   <level>INFO</level>
   <class>dev.examsmanagement.Log</class>
   <method>info</method>
@@ -14,27 +18,223 @@
   <message>Wrong Credentials or Database Error</message>
 </record>
 <record>
-  <date>2022-04-02T08:17:24.272286Z</date>
-  <millis>1648887444272</millis>
-  <nanos>286000</nanos>
+  <date>2022-04-02T15:17:34.672483800Z</date>
+  <millis>1648912654672</millis>
+  <nanos>483800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-02T15:34:15.818015400Z</date>
+  <millis>1648913655818</millis>
+  <nanos>15400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>Users table creation failed</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:15.818015400Z</date>
+  <millis>1648913655818</millis>
+  <nanos>15400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>Users table creation failed</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:16.055107500Z</date>
+  <millis>1648913656055</millis>
+  <nanos>107500</nanos>
   <sequence>1</sequence>
-  <logger>dev.examsmanagement.Log</logger>
+  <logger>global</logger>
   <level>INFO</level>
   <class>dev.examsmanagement.Log</class>
   <method>info</method>
   <thread>18</thread>
-  <message>Wrong Credentials or Database Error</message>
+  <message>New user added</message>
 </record>
 <record>
-  <date>2022-04-02T08:17:32.155128800Z</date>
-  <millis>1648887452155</millis>
-  <nanos>128800</nanos>
-  <sequence>2</sequence>
-  <logger>dev.examsmanagement.Log</logger>
+  <date>2022-04-02T15:34:16.055107500Z</date>
+  <millis>1648913656055</millis>
+  <nanos>107500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
   <level>INFO</level>
   <class>dev.examsmanagement.Log</class>
   <method>info</method>
   <thread>18</thread>
-  <message>Wrong Credentials or Database Error</message>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:16.055107500Z</date>
+  <millis>1648913656055</millis>
+  <nanos>107500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:47.133311400Z</date>
+  <millis>1648913687133</millis>
+  <nanos>311400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:47.133311400Z</date>
+  <millis>1648913687133</millis>
+  <nanos>311400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:47.133311400Z</date>
+  <millis>1648913687133</millis>
+  <nanos>311400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-02T15:34:47.133311400Z</date>
+  <millis>1648913687133</millis>
+  <nanos>311400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-02T15:39:07.290688Z</date>
+  <millis>1648913947290</millis>
+  <nanos>688000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>Users table creation failed</message>
+</record>
+<record>
+  <date>2022-04-02T15:39:07.290688Z</date>
+  <millis>1648913947290</millis>
+  <nanos>688000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>Users table creation failed</message>
+</record>
+<record>
+  <date>2022-04-02T15:39:07.391336800Z</date>
+  <millis>1648913947391</millis>
+  <nanos>336800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-02T15:39:07.391336800Z</date>
+  <millis>1648913947391</millis>
+  <nanos>336800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-02T15:39:07.391336800Z</date>
+  <millis>1648913947391</millis>
+  <nanos>336800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New user added</message>
 </record>
 </log>

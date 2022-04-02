@@ -7,30 +7,29 @@ import java.io.IOException;
 import java.sql.*;
 
 public class User {
-    private int id;
-    private String email, password;
+    private String name, email, password;
     private int isInstructor;
     private String validationMessage;
 
-    public User(String _email, String _password, int _instrctor){
-        email = _email;
-        password = _password;
-        isInstructor = _instrctor;
-    }
-
-    public User(int _id, String _email, String _password, int _instrctor){
-        id = _id;
+    public User(String _name,String _email, String _password, int _instrctor){
+        name = _name;
         email = _email;
         password = _password;
         isInstructor = _instrctor;
     }
 
     public void printUser(){
-        System.out.println("ID: " + id + " Email: " + email + " Password: " + password + " isinstrctor: " + isInstructor);
+        System.out.println(" Email: " + email + " Password: " + password + " isinstrctor: " + isInstructor);
     }
 
     public int getIsInstructor() {
         return isInstructor;
+    }
+    public String getName(){
+        return name;
+    }
+    public String getEmail() {
+        return email;
     }
 
     //  Sign Up Methods
@@ -67,32 +66,35 @@ public class User {
     }
 
     public boolean saveUser() throws IOException, SQLException {
-        Log logs = new Log();
+
 
         Connection conn = DBconnection.DBconnect();
-        String sqlQ = "CREATE Table users (id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, isinstructor INT NOT NULL);";
+        String sqlQ = "CREATE Table users (email VARCHAR(255) NOT NULL PRIMARY KEY, name VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, isinstructor INT NOT NULL);";
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);
-            logs.info("USERS table created");
+            Log.info("Users table created");
         } catch (SQLException e) {
 //            e.printStackTrace();
+            Log.warning("Users table creation failed");
         }
 
-        sqlQ = "INSERT INTO users(email, password, isinstructor) VALUES(?,?,?);";
+        sqlQ = "INSERT INTO users(name, email, password, isinstructor) VALUES(?,?,?,?);";
         try{
             PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
-            sqlSt.setString(1, email);
-            sqlSt.setString(2, password);
-            sqlSt.setInt(3, isInstructor);
+            sqlSt.setString(1, name);
+            sqlSt.setString(2, email);
+            sqlSt.setString(3, password);
+            sqlSt.setInt(4, isInstructor);
             sqlSt.executeUpdate();
-            logs.info("New user created");
+            Log.info("New user added");
+
             conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
-            logs.warning("New user creation failed");
+            Log.warning("New user creation failed");
             conn.close();
             return false;
         }

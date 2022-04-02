@@ -18,14 +18,18 @@ import java.util.Objects;
 
 public class SignUpController {
     @FXML
+    public TextField signUpName;
     public TextField signUpEmail;
     public PasswordField signUpPassword;
     public Label signupValidation;
 
     @FXML
-    protected void signup(User newuser) throws IOException, SQLException {
+    protected void signup(User newuser, ActionEvent event) throws IOException, SQLException {
         if(newuser.newUserValidation()){
             newuser.saveUser();
+
+//            -- Switch view to Login -- (Alternate) -- Direct to dashboard --
+            login(event);
         }
         else {
             signupValidation.setText(newuser.getValidationMessage());
@@ -33,15 +37,15 @@ public class SignUpController {
     }
 
     @FXML
-    protected void signUpAsStudent() throws IOException, SQLException {
-        User newUser = new User(signUpEmail.getText(), signUpPassword.getText(), 0);
-        signup(newUser);
+    protected void signUpAsStudent(ActionEvent event) throws IOException, SQLException {
+        User newUser = new User(signUpName.getText(),signUpEmail.getText(), signUpPassword.getText(), 0);
+        signup(newUser, event);
     }
 
     @FXML
-    protected void signUpAsInstructor() throws IOException, SQLException {
-        User newUser = new User(signUpEmail.getText(), signUpPassword.getText(), 1);
-        signup(newUser);
+    protected void signUpAsInstructor(ActionEvent event) throws IOException, SQLException {
+        User newUser = new User(signUpName.getText(),signUpEmail.getText(), signUpPassword.getText(), 1);
+        signup(newUser, event);
     }
 
     @FXML
