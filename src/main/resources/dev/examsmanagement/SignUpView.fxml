@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.SignUpController">
    <children>
-      <VBox layoutX="237.0" layoutY="115.0" prefHeight="335.0" prefWidth="313.0" styleClass="container" stylesheets="@../../assets/css/style.css">
+      <VBox layoutX="237.0" layoutY="83.0" prefHeight="367.0" prefWidth="313.0" styleClass="container" stylesheets="@../../assets/css/style.css">
          <children>
             <Label text="Email: ">
                <font>
@@ -46,7 +46,15 @@
                   <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
                </VBox.margin>
             </PasswordField>
-            <Button fx:id="signUpButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#signUpAsStudent" prefHeight="35.0" prefWidth="443.0" style="-fx-background-color: #24A0ED;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Sign up as Instructor" textAlignment="JUSTIFY" textFill="WHITE">
+            <Label fx:id="signupValidation" textAlignment="CENTER" textFill="#ff6b6b">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Cambria" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="signUpButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#signUpAsInstructor" prefHeight="35.0" prefWidth="443.0" style="-fx-background-color: #24A0ED;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Sign up as Instructor" textAlignment="JUSTIFY" textFill="WHITE">
                <font>
                   <Font name="Cambria" size="16.0" />
                </font>

@@ -7,26 +7,41 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Objects;
 
 public class SignUpController {
     @FXML
     public TextField signUpEmail;
     public PasswordField signUpPassword;
+    public Label signupValidation;
 
     @FXML
-    protected void signUpAsStudent(){
-        User newUser = new User(signUpEmail.getText(), signUpPassword.getText(), 0);
+    protected void signup(User newuser) throws IOException, SQLException {
+        if(newuser.newUserValidation()){
+            newuser.saveUser();
+        }
+        else {
+            signupValidation.setText(newuser.getValidationMessage());
+        }
     }
 
     @FXML
-    protected void signUpAsInstructor(){
+    protected void signUpAsStudent() throws IOException, SQLException {
+        User newUser = new User(signUpEmail.getText(), signUpPassword.getText(), 0);
+        signup(newUser);
+    }
+
+    @FXML
+    protected void signUpAsInstructor() throws IOException, SQLException {
         User newUser = new User(signUpEmail.getText(), signUpPassword.getText(), 1);
+        signup(newUser);
     }
 
     @FXML

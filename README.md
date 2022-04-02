@@ -4,9 +4,13 @@
 
 > Next up
 
-- User session
+- Logging Format
+- Create Questions
 
 > Done
 
+- Basic Logging
+- Login / Logout
+- User session
 - Database (sqlite) Integration
 - Basic gui and Scence Change

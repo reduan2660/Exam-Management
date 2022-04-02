@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-02T08:17:21.274768300Z</date>
+  <millis>1648887441274</millis>
+  <nanos>768300</nanos>
+  <sequence>0</sequence>
+  <logger>dev.examsmanagement.Log</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-02T08:17:24.272286Z</date>
+  <millis>1648887444272</millis>
+  <nanos>286000</nanos>
+  <sequence>1</sequence>
+  <logger>dev.examsmanagement.Log</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-02T08:17:32.155128800Z</date>
+  <millis>1648887452155</millis>
+  <nanos>128800</nanos>
+  <sequence>2</sequence>
+  <logger>dev.examsmanagement.Log</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>

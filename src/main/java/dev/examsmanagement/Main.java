@@ -6,22 +6,25 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+import java.sql.Connection;
+import java.sql.SQLException;
 
 
 public class Main extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
-
+    public void start(Stage stage) throws IOException, SQLException {
+        Log logs = new Log();
 
 //        Database Connection
-        if(dev.examsmanagement.db.DBconnection.DBconnect() != null){
-            System.out.println("Database Connection Successful");
+        Connection conn = dev.examsmanagement.db.DBconnection.DBconnect();
+        if(conn != null){
+            logs.fine("Database Connection Successful");
+            conn.close();
         }else{
-            System.out.println("Database Connection Failed");
+            logs.warning("Database Connection Failed");
         }
 
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("SignUpView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("LoginView.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Exams");
         stage.setScene(scene);
