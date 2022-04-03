@@ -63,14 +63,15 @@ public class TestCreateController implements Initializable {
     }
 
     @FXML
-    protected void addMCQquestion() throws SQLException, IOException {
+    protected void addMCQquestion(ActionEvent event) throws SQLException, IOException {
         addTest();
-
+        Session.switchScene("MCQCreateView.fxml", event);
     }
 
     @FXML
-    protected void addCQquestion() throws SQLException, IOException {
+    protected void addCQquestion(ActionEvent event) throws SQLException, IOException {
         addTest();
+        Session.switchScene("QuestionCreateView.fxml", event);
     }
 
     //    --- Navigation ---

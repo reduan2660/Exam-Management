@@ -4,10 +4,11 @@
 
 > Next up
 
-- Create Questions
+- Edit Courses and tests
 
 > Done
 
+- Create Questions
 - Create Tests
 - Add students to courses
 - Create course

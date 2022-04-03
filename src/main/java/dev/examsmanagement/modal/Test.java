@@ -49,6 +49,10 @@ public class Test {
         course = _course;
     }
 
+    public int getId() {
+        return id;
+    }
+
     @Override
     public String toString() {
         return "Test{" +
@@ -84,7 +88,7 @@ public class Test {
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "title VARCHAR(255) NOT NULL," +
                 "instructions VARCHAR(255)," +
-                "time INTEGER NOT NULL,"+
+                "time VARCHAR(255) NOT NULL,"+
                 "course INTEGER NOT NULL,"+
                 "allowLateSubmission INTEGER NOT NULL,"+
                 "randomQuestions INTEGER NOT NULL"+

@@ -1594,3 +1594,1095 @@
   <message>New test added</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-03T17:43:26.824951900Z</date>
+  <millis>1649007806824</millis>
+  <nanos>951900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:26.824951900Z</date>
+  <millis>1649007806824</millis>
+  <nanos>951900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:27.870031Z</date>
+  <millis>1649007807870</millis>
+  <nanos>31000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:27.870031Z</date>
+  <millis>1649007807870</millis>
+  <nanos>31000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:27.870031Z</date>
+  <millis>1649007807870</millis>
+  <nanos>31000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:47.403414100Z</date>
+  <millis>1649007827403</millis>
+  <nanos>414100</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:47.403414100Z</date>
+  <millis>1649007827403</millis>
+  <nanos>414100</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:47.403414100Z</date>
+  <millis>1649007827403</millis>
+  <nanos>414100</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:43:47.403414100Z</date>
+  <millis>1649007827403</millis>
+  <nanos>414100</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:19.433694Z</date>
+  <millis>1649007859433</millis>
+  <nanos>694000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:19.433694Z</date>
+  <millis>1649007859433</millis>
+  <nanos>694000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:19.433694Z</date>
+  <millis>1649007859433</millis>
+  <nanos>694000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:19.433694Z</date>
+  <millis>1649007859433</millis>
+  <nanos>694000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:19.433694Z</date>
+  <millis>1649007859433</millis>
+  <nanos>694000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:20.507791700Z</date>
+  <millis>1649007860507</millis>
+  <nanos>791700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:44:44.950024400Z</date>
+  <millis>1649007884950</millis>
+  <nanos>24400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-03T17:49:15.062474800Z</date>
+  <millis>1649008155062</millis>
+  <nanos>474800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:15.062474800Z</date>
+  <millis>1649008155062</millis>
+  <nanos>474800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:15.990900500Z</date>
+  <millis>1649008155990</millis>
+  <nanos>900500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:15.990900500Z</date>
+  <millis>1649008155990</millis>
+  <nanos>900500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:15.990900500Z</date>
+  <millis>1649008155990</millis>
+  <nanos>900500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:51.329581Z</date>
+  <millis>1649008191329</millis>
+  <nanos>581000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:51.329581Z</date>
+  <millis>1649008191329</millis>
+  <nanos>581000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:51.329581Z</date>
+  <millis>1649008191329</millis>
+  <nanos>581000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T17:49:51.329581Z</date>
+  <millis>1649008191329</millis>
+  <nanos>581000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-03T18:35:07.961312800Z</date>
+  <millis>1649010907961</millis>
+  <nanos>312800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:07.961312800Z</date>
+  <millis>1649010907961</millis>
+  <nanos>312800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:11.976934700Z</date>
+  <millis>1649010911976</millis>
+  <nanos>934700</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:11.976934700Z</date>
+  <millis>1649010911976</millis>
+  <nanos>934700</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:11.976934700Z</date>
+  <millis>1649010911976</millis>
+  <nanos>934700</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Course Student added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:30.081480200Z</date>
+  <millis>1649010930081</millis>
+  <nanos>480200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:30.081480200Z</date>
+  <millis>1649010930081</millis>
+  <nanos>480200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:30.081480200Z</date>
+  <millis>1649010930081</millis>
+  <nanos>480200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:30.081480200Z</date>
+  <millis>1649010930081</millis>
+  <nanos>480200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.075435600Z</date>
+  <millis>1649010942075</millis>
+  <nanos>435600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.075435600Z</date>
+  <millis>1649010942075</millis>
+  <nanos>435600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.075435600Z</date>
+  <millis>1649010942075</millis>
+  <nanos>435600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.075435600Z</date>
+  <millis>1649010942075</millis>
+  <nanos>435600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.075435600Z</date>
+  <millis>1649010942075</millis>
+  <nanos>435600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:35:42.153226600Z</date>
+  <millis>1649010942153</millis>
+  <nanos>226600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:23.394289800Z</date>
+  <millis>1649010983394</millis>
+  <nanos>289800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.151884200Z</date>
+  <millis>1649011019151</millis>
+  <nanos>884200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>mcqquestions table created</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:36:59.262203Z</date>
+  <millis>1649011019262</millis>
+  <nanos>203000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-03T18:37:34.530045600Z</date>
+  <millis>1649011054530</millis>
+  <nanos>45600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+</log>
