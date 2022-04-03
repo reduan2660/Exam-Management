@@ -5,10 +5,7 @@ import dev.examsmanagement.Session;
 import dev.examsmanagement.db.DBconnection;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Course {
     private int id;
@@ -16,7 +13,7 @@ public class Course {
     private User instrcutor;
 
     private static int studentCap = 20, totalStudent=0;
-    private User[] students = new User[studentCap];
+    private String[] students = new String[studentCap];
     private Test test;
 
     public Course(String _title, String _description, User _instrcutor){
@@ -37,6 +34,14 @@ public class Course {
         return title;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
     public void printCourse(){
         System.out.println("Title: " + title);
         System.out.println("Description: " + description);
@@ -44,25 +49,7 @@ public class Course {
 
     }
 
-    public void addStudent(User _student){
-//        --- Append to array ---
-        if(totalStudent == studentCap){
-            User[] studentsExtended = new User[studentCap * 2];
 
-            for(int i=0;i<totalStudent;i++){
-                studentsExtended[i] = students[i];
-            }
-            studentsExtended[totalStudent] = _student;
-
-            students = studentsExtended;
-        }
-        else{
-            students[totalStudent] = _student;
-            totalStudent += 1;
-        }
-
-//        --- Save to Database ---
-    }
 
     public void addTest(Test _test){
 //        --- Save to class variable
@@ -72,8 +59,6 @@ public class Course {
     }
 
     public boolean saveCourse() throws IOException, SQLException {
-
-
         Connection conn = DBconnection.DBconnect();
         String sqlQ = "CREATE Table courses (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -95,10 +80,26 @@ public class Course {
             sqlSt.setString(1, title);
             sqlSt.setString(2, description);
             sqlSt.setString(3, instrcutor.getEmail());
-            int a = sqlSt.executeUpdate();
-            System.out.println(a);
+            sqlSt.executeUpdate();
 
             Log.info("New course added");
+
+//          -- Set up id --
+            sqlQ = "SELECT * FROM courses ORDER BY id DESC LIMIT 1";
+
+            try{
+//            --- Run query to bring all courses ---
+                Statement sqlSt2 = conn.createStatement();
+                ResultSet rs = sqlSt2.executeQuery(sqlQ);
+
+                if (rs.next()){
+                  id = rs.getInt("id");
+                }
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
             conn.close();
             return true;
         }
@@ -110,5 +111,44 @@ public class Course {
         }
     }
 
+    public boolean addStudents(String[] students){
+        Connection conn = DBconnection.DBconnect();
+        String sqlQ = "CREATE Table course_student (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "course INTEGER NOT NULL," +
+                "student VARCHAR(255) NOT NULL"+
+                ");";
+        try{
+            Statement sqlSt = conn.createStatement();
+            sqlSt.execute(sqlQ);
+            Log.info("course_student table created");
+        } catch (SQLException e) {
+//            e.printStackTrace();
+        }
 
+        sqlQ = "INSERT INTO course_student (course, student) VALUES(?,?);";
+        boolean returnFlag = true;
+        for (int i=0; i<students.length;i++){
+            try {
+                PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
+                sqlSt.setInt(1, id);
+                sqlSt.setString(2, students[i]);
+                sqlSt.executeUpdate();
+                Log.info("Course Student added");
+            }
+            catch (SQLException e){
+                e.printStackTrace();
+                Log.warning("Course-Student creation failed");
+                returnFlag = false;
+                break;
+            }
+        }
+
+        try {
+            conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return returnFlag;
+    }
 }

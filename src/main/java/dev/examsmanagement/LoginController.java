@@ -45,16 +45,11 @@ public class LoginController {
 //            --- Switch Views ---
             Parent root;
             if(loggedUser.getIsInstructor() == 1){
-                root = FXMLLoader.load(getClass().getResource("InstructorView.fxml"));
+                Session.switchScene("InstructorView.fxml", event);
             }
             else{
-                root = FXMLLoader.load(getClass().getResource("StudentView.fxml"));
+                Session.switchScene("StudentView.fxml", event);
             }
-            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            Scene scene = new Scene(root);
-            stage.setScene(scene);
-            stage.show();
-
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -67,10 +62,6 @@ public class LoginController {
 
     @FXML
     protected void navSignUp(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("SignUpView.fxml"));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Session.switchScene("SignUpView.fxml", event);
     }
 }

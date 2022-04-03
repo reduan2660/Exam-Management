@@ -28,8 +28,7 @@ public class SignUpController {
         if(newuser.newUserValidation()){
             newuser.saveUser();
 
-//            -- Switch view to Login -- (Alternate) -- Direct to dashboard --
-            login(event);
+            login(event); // Switch view to Login -- (Alternate) -- Direct to dashboard --
         }
         else {
             signupValidation.setText(newuser.getValidationMessage());
@@ -50,10 +49,6 @@ public class SignUpController {
 
     @FXML
     protected void login(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LoginView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Session.switchScene("LoginView.fxml", event);
     }
 }

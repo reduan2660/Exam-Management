@@ -4,11 +4,11 @@
 
 > Next up
 
-- Add students to courses
 - Create Tests
 
 > Done
 
+- Add students to courses
 - Create course
 - One file logging
 - Basic Logging

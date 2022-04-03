@@ -47,8 +47,6 @@ public class InstructorController implements Initializable {
                 courseList.getItems().add(course);
             }
 
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -62,26 +60,12 @@ public class InstructorController implements Initializable {
 
     @FXML
     protected void createCourse(ActionEvent event) throws IOException {
-//        -- switch scene to CourseCreateView --
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("CourseCreateView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Session.switchScene("CourseCreateView.fxml", event); // Switch scene to CourseCreateView
     }
 
     @FXML
     protected void logout(ActionEvent event) throws IOException {
         Session.logout();
-
-//        -- switch scene to login --
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LoginView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Session.switchScene("LoginView.fxml", event); // Switch scene to login
     }
-
-
-
 }
