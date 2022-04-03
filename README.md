@@ -4,10 +4,11 @@
 
 > Next up
 
-- Create Tests
+- Create Questions
 
 > Done
 
+- Create Tests
 - Add students to courses
 - Create course
 - One file logging
@@ -16,3 +17,11 @@
 - User session
 - Database (sqlite) Integration
 - Basic gui and Scence Change
+
+> Devils of the details
+
+- Email validation while signup/login
+- Strong password validation
+- Store password hash
+- Dont let blank students to be added in Course Student
+- Dont let forward without filling Mandatory fields

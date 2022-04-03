@@ -42,14 +42,6 @@ public class Course {
         return title;
     }
 
-    public void printCourse(){
-        System.out.println("Title: " + title);
-        System.out.println("Description: " + description);
-        System.out.println("Instructor: " + instrcutor.getEmail());
-
-    }
-
-
 
     public void addTest(Test _test){
 //        --- Save to class variable

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.TestCreateController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24a0ed" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1280.0" />
+        <Button layoutX="190.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Create New Course" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="75.0" layoutY="16.0" mnemonicParsing="false" onAction="#allCourse" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="All Courses" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="profileBtn" layoutX="887.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Profile" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="992.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Dashboard" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="1136.0" layoutY="15.0" mnemonicParsing="false" onAction="#logout" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Log Out" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+      <Label layoutX="259.0" layoutY="116.0" text="Test Title:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="addQus" layoutX="351.0" layoutY="479.0" mnemonicParsing="false" onAction="#addMCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ Questions">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="257.0" layoutY="179.0" text="Instructions:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="299.0" text="Time:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="testTitle" layoutX="420.0" layoutY="113.0" prefHeight="25.0" prefWidth="396.0">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="testInstruction" layoutX="419.0" layoutY="176.0" prefHeight="80.0" prefWidth="397.0">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </TextArea>
+      <DatePicker fx:id="testTime" layoutX="421.0" layoutY="296.0" prefHeight="25.0" prefWidth="182.0" />
+      <CheckBox fx:id="testLateSubmission" layoutX="424.0" layoutY="363.0" mnemonicParsing="false" text="Allow late submission">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="testRandomQuestion" layoutX="425.0" layoutY="407.0" mnemonicParsing="false" text="Random order questions">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="addQus1" layoutX="621.0" layoutY="479.0" mnemonicParsing="false" onAction="#addCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add CQ Questions">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ChoiceBox fx:id="testHour" layoutX="623.0" layoutY="296.0" prefHeight="25.0" prefWidth="57.0" />
+      <ChoiceBox fx:id="testMinute" layoutX="695.0" layoutY="297.0" prefHeight="25.0" prefWidth="57.0" />
+      <ChoiceBox fx:id="testAMPM" layoutX="771.0" layoutY="298.0" prefHeight="25.0" prefWidth="43.0" />
+    </children>
+</AnchorPane>

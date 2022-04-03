@@ -1,6 +1,7 @@
 package dev.examsmanagement;
 
 import dev.examsmanagement.modal.Course;
+import dev.examsmanagement.modal.Test;
 import dev.examsmanagement.modal.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +16,7 @@ import java.util.Objects;
 public class Session {
     private static User currentUser = null;
     public static Course sessCourse = null;
+    public static Test sessTest = null;
 
     public static void setCurrentUser(User _currentUser) {
         currentUser = _currentUser;

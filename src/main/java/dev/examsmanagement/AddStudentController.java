@@ -39,8 +39,9 @@ public class AddStudentController implements Initializable {
     }
 
     @FXML
-    protected void createCourseAndAddTest(){
-//        Implement later
+    protected void createCourseAndAddTest(ActionEvent event) throws IOException {
+        addStudentsToCourse();
+        Session.switchScene("TestCreateView.fxml", event);
     }
 
 
