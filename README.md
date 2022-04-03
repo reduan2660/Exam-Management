@@ -8,6 +8,7 @@
 
 > Done
 
+- Course Details
 - Create Questions
 - Create Tests
 - Add students to courses

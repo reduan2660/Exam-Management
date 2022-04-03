@@ -14,6 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException, SQLException {
         Log logs = new Log();
+        Session.primaryStage = stage;
 
 //        Database Connection
         Connection conn = dev.examsmanagement.db.DBconnection.DBconnect();

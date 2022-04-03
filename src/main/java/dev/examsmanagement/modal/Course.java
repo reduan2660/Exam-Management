@@ -42,6 +42,9 @@ public class Course {
         return title;
     }
 
+    public String getDescription() {
+        return description;
+    }
 
     public void addTest(Test _test){
 //        --- Save to class variable

@@ -32,13 +32,13 @@ public class Test {
         course = _course;
     }
 
-    Test(int _id,
-         String _title,
-         String _instructions,
-         LocalDateTime _time,
-         boolean _allowLateSubmission,
-         boolean _randomQuestions,
-         Course _course)
+    public Test(int _id,
+                String _title,
+                String _instructions,
+                LocalDateTime _time,
+                boolean _allowLateSubmission,
+                boolean _randomQuestions,
+                Course _course)
     {
         id = _id;
         title = _title;
@@ -55,15 +55,7 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", instructions='" + instructions + '\'' +
-                ", time=" + time +
-                ", allowLateSubmission=" + allowLateSubmission +
-                ", randomQuestions=" + randomQuestions +
-                ", course=" + course +
-                '}';
+        return title + " at " + time.format(DateTimeFormatter.ofPattern("HH:mm dd-MM-yy"));
     }
 
     public static LocalDateTime toTime(String date, int hour, int minute, String ampm){
@@ -77,6 +69,17 @@ public class Test {
                 hour += 12;
             }
         }
+
+        LocalDateTime t = LocalDateTime.of(year,month,day,hour,minute);
+        return t;
+    }
+
+    public static LocalDateTime toTime(String dateDatabaseFormat){
+        int year = Integer.parseInt(dateDatabaseFormat.substring(0,4));
+        int month = Integer.parseInt(dateDatabaseFormat.substring(5,7));
+        int day = Integer.parseInt(dateDatabaseFormat.substring(8,10));
+        int hour = Integer.parseInt(dateDatabaseFormat.substring(11,13));
+        int minute = Integer.parseInt(dateDatabaseFormat.substring(14,16));
 
         LocalDateTime t = LocalDateTime.of(year,month,day,hour,minute);
         return t;

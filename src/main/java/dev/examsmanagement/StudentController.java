@@ -15,12 +15,6 @@ public class StudentController {
     @FXML
     protected void logout(ActionEvent event) throws IOException {
         Session.logout();
-
-//        -- switch scene to login --
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LoginView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Session.switchScene("LoginView.fxml");
     }
 }

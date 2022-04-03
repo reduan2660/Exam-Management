@@ -17,6 +17,7 @@ public class Session {
     private static User currentUser = null;
     public static Course sessCourse = null;
     public static Test sessTest = null;
+    public static Stage primaryStage = null;
 
     public static void setCurrentUser(User _currentUser) {
         currentUser = _currentUser;
@@ -31,6 +32,14 @@ public class Session {
     public static void switchScene(String _viewName, ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(Session.class.getResource(_viewName)));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void switchScene(String _viewName) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(Session.class.getResource(_viewName)));
+        Stage stage = primaryStage;
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
