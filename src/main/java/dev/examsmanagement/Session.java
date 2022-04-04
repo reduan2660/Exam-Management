@@ -1,6 +1,7 @@
 package dev.examsmanagement;
 
 import dev.examsmanagement.modal.Course;
+import dev.examsmanagement.modal.Question;
 import dev.examsmanagement.modal.Test;
 import dev.examsmanagement.modal.User;
 import javafx.event.ActionEvent;
@@ -17,6 +18,7 @@ public class Session {
     private static User currentUser = null;
     public static Course sessCourse = null;
     public static Test sessTest = null;
+    public static Question sessQuestion = null;
     public static Stage primaryStage = null;
 
     public static void setCurrentUser(User _currentUser) {

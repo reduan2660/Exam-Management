@@ -89,6 +89,22 @@ public class TestEditController implements Initializable {
         }
 
 
+//        --- CQ Selection
+        questionList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Question>() {
+            @Override
+            public void changed(ObservableValue<? extends Question> observableValue, Question question, Question t1) {
+                Session.sessQuestion = questionList.getSelectionModel().getSelectedItem();
+                try {
+                    Session.switchScene("QuestionEditView.fxml");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
+
+
+
     }
 
     @FXML

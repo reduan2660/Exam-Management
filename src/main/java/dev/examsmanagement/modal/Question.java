@@ -26,6 +26,22 @@ public class Question {
         test = _test;
     }
 
+    public String getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
     @Override
     public String toString() {
         return "Point: " + points + " | " + question;
@@ -87,4 +103,26 @@ public class Question {
         }
     }
 
+    public boolean updateQuestion() throws IOException, SQLException {
+
+        Connection conn = DBconnection.DBconnect();
+        String sqlQ = "UPDATE questions " +
+                "SET title=\'" + question + "\'," +
+                " points=" + points +
+                " WHERE test=" + test.getId() + ";";
+//        System.out.println(sqlQ);
+        try{
+            PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
+            sqlSt.executeUpdate();
+            Log.info("Question Updated");
+            conn.close();
+            return true;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            Log.warning("question update failed");
+            conn.close();
+            return false;
+        }
+    }
 }

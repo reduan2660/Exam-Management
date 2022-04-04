@@ -3086,3 +3086,179 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T15:47:04.835218900Z</date>
+  <millis>1649087224835</millis>
+  <nanos>218900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-04T15:47:04.835218900Z</date>
+  <millis>1649087224835</millis>
+  <nanos>218900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T15:48:34.357699Z</date>
+  <millis>1649087314357</millis>
+  <nanos>699000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+<record>
+  <date>2022-04-04T15:48:34.357699Z</date>
+  <millis>1649087314357</millis>
+  <nanos>699000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T15:52:17.309041600Z</date>
+  <millis>1649087537309</millis>
+  <nanos>41600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+<record>
+  <date>2022-04-04T15:52:17.309041600Z</date>
+  <millis>1649087537309</millis>
+  <nanos>41600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T17:11:06.302338800Z</date>
+  <millis>1649092266302</millis>
+  <nanos>338800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+<record>
+  <date>2022-04-04T17:11:06.302338800Z</date>
+  <millis>1649092266302</millis>
+  <nanos>338800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T17:12:24.974379600Z</date>
+  <millis>1649092344974</millis>
+  <nanos>379600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+<record>
+  <date>2022-04-04T17:12:24.974379600Z</date>
+  <millis>1649092344974</millis>
+  <nanos>379600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>18</thread>
+  <message>question update failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T17:13:14.289861900Z</date>
+  <millis>1649092394289</millis>
+  <nanos>861900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-04T17:13:14.289861900Z</date>
+  <millis>1649092394289</millis>
+  <nanos>861900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Question Updated</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
