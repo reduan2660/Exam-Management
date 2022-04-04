@@ -25,15 +25,7 @@ public class MCQquestion extends Question {
 
     @Override
     public String toString() {
-        return "MCQquestion{" +
-                "options=" + Arrays.toString(options) +
-                ", correctOptionIndex=" + correctOptionIndex +
-                ", id=" + id +
-                ", question='" + question + '\'' +
-                ", points=" + points +
-                ", givenPoint=" + givenPoint +
-                ", test=" + test +
-                '}';
+        return "Points: " + points + " | " + question + " | " + Arrays.toString(options);
     }
 
     @Override

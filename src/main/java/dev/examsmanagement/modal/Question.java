@@ -28,13 +28,7 @@ public class Question {
 
     @Override
     public String toString() {
-        return "Question{" +
-                "id=" + id +
-                ", question='" + question + '\'' +
-                ", points=" + points +
-                ", givenPoint=" + givenPoint +
-                ", test=" + test +
-                '}';
+        return "Point: " + points + " | " + question;
     }
 
     public boolean saveQuestion() throws IOException, SQLException {

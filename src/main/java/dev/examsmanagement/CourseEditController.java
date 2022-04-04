@@ -3,6 +3,8 @@ package dev.examsmanagement;
 import dev.examsmanagement.db.DBconnection;
 import dev.examsmanagement.modal.Course;
 import dev.examsmanagement.modal.Test;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -67,13 +69,26 @@ public class CourseEditController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
+//      --- Close Database Connection ---
         try {
             conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
+
+//        --- If course selected then save course to session and forward to course edit view
+        testList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Test>() {
+            @Override
+            public void changed(ObservableValue<? extends Test> observableValue, Test test, Test t1) {
+                Session.sessTest = testList.getSelectionModel().getSelectedItem();
+                try {
+                    Session.switchScene("TestEditView.fxml");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
     }
 

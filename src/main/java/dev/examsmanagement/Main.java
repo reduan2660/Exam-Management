@@ -3,6 +3,7 @@ package dev.examsmanagement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,7 +16,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException, SQLException {
         Log logs = new Log();
         Session.primaryStage = stage;
-
+        stage.getIcons().add(new Image("file:src/main/resources/assets/images/icon.png"));
 //        Database Connection
         Connection conn = dev.examsmanagement.db.DBconnection.DBconnect();
         if(conn != null){

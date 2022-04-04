@@ -36,7 +36,6 @@ public class InstructorController implements Initializable {
 
 //        --- Get all courses of this instructor ---
         Connection conn = DBconnection.DBconnect();
-//        String sqlQ = "SELECT * FROM courses;";
         String sqlQ = "SELECT * FROM courses WHERE instructor=\'" + Session.getCurrentUser().getEmail() + "\'  ORDER BY id DESC;";
 
         try {

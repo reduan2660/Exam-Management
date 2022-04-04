@@ -2962,3 +2962,127 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T13:21:45.965312500Z</date>
+  <millis>1649078505965</millis>
+  <nanos>312500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-04T13:21:45.965312500Z</date>
+  <millis>1649078505965</millis>
+  <nanos>312500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-04T13:21:50.972689200Z</date>
+  <millis>1649078510972</millis>
+  <nanos>689200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-04T13:21:50.972689200Z</date>
+  <millis>1649078510972</millis>
+  <nanos>689200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-04T13:21:50.972689200Z</date>
+  <millis>1649078510972</millis>
+  <nanos>689200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-04T13:25:10.862401200Z</date>
+  <millis>1649078710862</millis>
+  <nanos>401200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-04T13:25:10.862401200Z</date>
+  <millis>1649078710862</millis>
+  <nanos>401200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>New question added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

@@ -59,7 +59,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="379.0" layoutY="577.0" mnemonicParsing="false" onAction="#createTest" style="-fx-background-color: #ffffff;" stylesheets="@../../assets/css/style.css" text="Create Test">
+      <Button layoutX="379.0" layoutY="577.0" mnemonicParsing="false" onAction="#createTest" style="-fx-background-color: #ffffff;" stylesheets="@../../assets/css/style.css" text="Done">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>

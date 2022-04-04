@@ -4,10 +4,11 @@
 
 > Next up
 
-- Edit Courses and tests
+- Edit Questions
 
 > Done
 
+- Edit Courses and tests
 - Course Details
 - Create Questions
 - Create Tests

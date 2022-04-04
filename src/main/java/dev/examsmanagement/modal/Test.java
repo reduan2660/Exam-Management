@@ -53,6 +53,18 @@ public class Test {
         return id;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getInstructions() {
+        return instructions;
+    }
+
+    public LocalDateTime getTime() {
+        return time;
+    }
+
     @Override
     public String toString() {
         return title + " at " + time.format(DateTimeFormatter.ofPattern("HH:mm dd-MM-yy"));
