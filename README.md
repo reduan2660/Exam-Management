@@ -14,7 +14,7 @@
 
 - Dependencies
   - [For SQ-Lite] Add [SQLITE-JDBC](https://github.com/xerial/sqlite-jdbc/releases) .jar file in the "File/Project Structure/Modules/Dependencies/+/Jar"
-  - [For MYSQL] Add [MYSQL-Connector](https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.28.zip) .jar file in the "File/Project Structure/Modules/Dependencies/+/Jar"
+  - [For MYSQL] Add [MYSQL-Connector](https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.28.zip) .zip file in the "File/Project Structure/Modules/Dependencies/+/Jar"
 
 > Next up
 
