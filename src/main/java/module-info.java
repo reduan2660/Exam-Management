@@ -10,6 +10,7 @@ module dev.examsmanagement {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires java.sql;
+    requires dotenv.java;
 
     opens dev.examsmanagement to javafx.fxml;
     exports dev.examsmanagement;

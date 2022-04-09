@@ -30,13 +30,18 @@ public class LoginController {
     protected void login(ActionEvent event) throws IOException, SQLException {
 
         Connection conn = DBconnection.DBconnect();
-        String sqlQ = "SELECT * FROM users WHERE email=\'" + loginEmail.getText() + "\' AND password=\'" + loginPassword.getText() + "\';";
+        String sqlQ = "SELECT * FROM users WHERE email=\'" + loginEmail.getText() + "\' AND password=\'" + loginPassword.getText() + "\' LIMIT 1;";
 
 
         try{
 //            --- Run query to check if user exists ---
             Statement sqlSt = conn.createStatement();
             ResultSet rs = sqlSt.executeQuery(sqlQ);
+
+//            --- Mysql Config ---
+            if(DBconnection.database == DBconnection.mysqlDB) {
+                rs.next();
+            }
 
 //            --- Save User to Session ---
             User loggedUser = new User(rs.getString("name"), rs.getString("email"), rs.getString("password"), rs.getInt("isinstructor"));

@@ -31,18 +31,36 @@ public class MCQquestion extends Question {
     @Override
     public boolean saveQuestion() throws IOException, SQLException {
         Connection conn = DBconnection.DBconnect();
-        String sqlQ = "CREATE Table mcqquestions (" +
-                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "title VARCHAR(255) NOT NULL," +
-                "points INTEGER NOT NULL,"+
-                "givenPoint INTEGER NOT NULL,"+
-                "option1 VARCHAR(255),"+
-                "option2 VARCHAR(255),"+
-                "option3 VARCHAR(255),"+
-                "option4 VARCHAR(255),"+
-                "correctOption INTEGER NOT NULL,"+
-                "test INTEGER NOT NULL"+
-                ");";
+
+        String sqlQ = null;
+        if(DBconnection.database == DBconnection.mysqlDB) {
+            sqlQ = "CREATE Table mcqquestions (" +
+                    "id INTEGER PRIMARY KEY AUTO_INCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "points INTEGER NOT NULL," +
+                    "givenPoint INTEGER NOT NULL," +
+                    "option1 VARCHAR(255)," +
+                    "option2 VARCHAR(255)," +
+                    "option3 VARCHAR(255)," +
+                    "option4 VARCHAR(255)," +
+                    "correctOption INTEGER NOT NULL," +
+                    "test INTEGER NOT NULL" +
+                    ");";
+        }
+        else if(DBconnection.database == DBconnection.sqliteDB) {
+            sqlQ = "CREATE Table mcqquestions (" +
+                    "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "points INTEGER NOT NULL," +
+                    "givenPoint INTEGER NOT NULL," +
+                    "option1 VARCHAR(255)," +
+                    "option2 VARCHAR(255)," +
+                    "option3 VARCHAR(255)," +
+                    "option4 VARCHAR(255)," +
+                    "correctOption INTEGER NOT NULL," +
+                    "test INTEGER NOT NULL" +
+                    ");";
+        }
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);

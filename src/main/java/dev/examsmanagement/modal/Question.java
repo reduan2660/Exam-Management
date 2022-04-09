@@ -49,13 +49,26 @@ public class Question {
 
     public boolean saveQuestion() throws IOException, SQLException {
         Connection conn = DBconnection.DBconnect();
-        String sqlQ = "CREATE Table questions (" +
-                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "title VARCHAR(255) NOT NULL," +
-                "points INTEGER NOT NULL,"+
-                "givenPoint INTEGER NOT NULL,"+
-                "test INTEGER NOT NULL"+
-                ");";
+
+        String sqlQ = null;
+        if(DBconnection.database == DBconnection.mysqlDB) {
+            sqlQ = "CREATE Table questions (" +
+                    "id INTEGER PRIMARY KEY AUTO_INCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "points INTEGER NOT NULL," +
+                    "givenPoint INTEGER NOT NULL," +
+                    "test INTEGER NOT NULL" +
+                    ");";
+        }
+        else if(DBconnection.database == DBconnection.sqliteDB) {
+            sqlQ = "CREATE Table questions (" +
+                    "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "points INTEGER NOT NULL," +
+                    "givenPoint INTEGER NOT NULL," +
+                    "test INTEGER NOT NULL" +
+                    ");";
+        }
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);
@@ -109,7 +122,8 @@ public class Question {
         String sqlQ = "UPDATE questions " +
                 "SET title=\'" + question + "\'," +
                 " points=" + points +
-                " WHERE test=" + test.getId() + ";";
+                " WHERE test=" + test.getId() +
+                " AND id = " + id + " ;";
 //        System.out.println(sqlQ);
         try{
             PreparedStatement sqlSt = conn.prepareStatement(sqlQ);

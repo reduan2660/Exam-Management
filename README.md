@@ -1,13 +1,27 @@
 > Project Setup (IntelliJ)
 
-- Add [SQLITE-JDBC](https://github.com/xerial/sqlite-jdbc/releases) .jar file in the "File/Project Structure/Modules/+/Jar"
+- Plugins (Intellij)
+  - Search for javafx and install the first party library
+  
+---
+
+- Libraries
+    - dotenv-java
+        - Go to File/Project Structure/Global Libraries/+/ 
+        - Search for "dotenv-java" and install version 2.2.3
+
+---
+
+- Dependencies
+  - [For SQ-Lite] Add [SQLITE-JDBC](https://github.com/xerial/sqlite-jdbc/releases) .jar file in the "File/Project Structure/Modules/Dependencies/+/Jar"
+  - [For MYSQL] Add [MYSQL-Connector](https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.28.zip) .jar file in the "File/Project Structure/Modules/Dependencies/+/Jar"
 
 > Next up
 
 - Edit Questions
 
 > Done
-
+- Mysql Connection
 - Edit Courses and tests
 - Course Details
 - Create Questions

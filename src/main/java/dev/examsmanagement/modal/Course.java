@@ -55,17 +55,30 @@ public class Course {
 
     public boolean saveCourse() throws IOException, SQLException {
         Connection conn = DBconnection.DBconnect();
-        String sqlQ = "CREATE Table courses (" +
-                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "title VARCHAR(255) NOT NULL," +
-                "description VARCHAR(255) NOT NULL," +
-                "instructor VARCHAR(255) NOT NULL"+
-                ");";
+        String sqlQ = null;
+        if(DBconnection.database == DBconnection.mysqlDB) {
+            sqlQ = "CREATE Table courses (" +
+                    "id INTEGER PRIMARY KEY AUTO_INCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "description VARCHAR(255) NOT NULL," +
+                    "instructor VARCHAR(255) NOT NULL" +
+                    ");";
+        }
+        else if(DBconnection.database == DBconnection.sqliteDB){
+            sqlQ = "CREATE Table courses (" +
+                    "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    "title VARCHAR(255) NOT NULL," +
+                    "description VARCHAR(255) NOT NULL," +
+                    "instructor VARCHAR(255) NOT NULL" +
+                    ");";
+        }
+
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);
             Log.info("Courses table created");
         } catch (SQLException e) {
+            Log.info("Courses table creation failed");
 //            e.printStackTrace();
         }
 

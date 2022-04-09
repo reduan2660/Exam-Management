@@ -3262,3 +3262,1187 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:24:16.267573900Z</date>
+  <millis>1649456656267</millis>
+  <nanos>573900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:27:57.877167900Z</date>
+  <millis>1649456877877</millis>
+  <nanos>167900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:28:46.350774400Z</date>
+  <millis>1649456926350</millis>
+  <nanos>774400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:38:33.013292500Z</date>
+  <millis>1649457513013</millis>
+  <nanos>292500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:41:02.848836100Z</date>
+  <millis>1649457662848</millis>
+  <nanos>836100</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:43:01.063090700Z</date>
+  <millis>1649457781063</millis>
+  <nanos>90700</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Users table created</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:01.063090700Z</date>
+  <millis>1649457781063</millis>
+  <nanos>90700</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Users table created</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:01.364593Z</date>
+  <millis>1649457781364</millis>
+  <nanos>593000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:01.364593Z</date>
+  <millis>1649457781364</millis>
+  <nanos>593000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:01.364593Z</date>
+  <millis>1649457781364</millis>
+  <nanos>593000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New user added</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:10.524504700Z</date>
+  <millis>1649457790524</millis>
+  <nanos>504700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:10.524504700Z</date>
+  <millis>1649457790524</millis>
+  <nanos>504700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:10.524504700Z</date>
+  <millis>1649457790524</millis>
+  <nanos>504700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:43:10.524504700Z</date>
+  <millis>1649457790524</millis>
+  <nanos>504700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:03.223511100Z</date>
+  <millis>1649458203223</millis>
+  <nanos>511100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:03.223511100Z</date>
+  <millis>1649458203223</millis>
+  <nanos>511100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:03.223511100Z</date>
+  <millis>1649458203223</millis>
+  <nanos>511100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:03.223511100Z</date>
+  <millis>1649458203223</millis>
+  <nanos>511100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:03.223511100Z</date>
+  <millis>1649458203223</millis>
+  <nanos>511100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:50:22.761922Z</date>
+  <millis>1649458222761</millis>
+  <nanos>922000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:22.761922Z</date>
+  <millis>1649458222761</millis>
+  <nanos>922000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:59.244887800Z</date>
+  <millis>1649458259244</millis>
+  <nanos>887800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:59.244887800Z</date>
+  <millis>1649458259244</millis>
+  <nanos>887800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:50:59.244887800Z</date>
+  <millis>1649458259244</millis>
+  <nanos>887800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:51:55.901576900Z</date>
+  <millis>1649458315901</millis>
+  <nanos>576900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:51:55.901576900Z</date>
+  <millis>1649458315901</millis>
+  <nanos>576900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:53:33.053222500Z</date>
+  <millis>1649458413053</millis>
+  <nanos>222500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:53:33.053222500Z</date>
+  <millis>1649458413053</millis>
+  <nanos>222500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:54:19.875656800Z</date>
+  <millis>1649458459875</millis>
+  <nanos>656800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:54:19.875656800Z</date>
+  <millis>1649458459875</millis>
+  <nanos>656800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:54:24.929512Z</date>
+  <millis>1649458464929</millis>
+  <nanos>512000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:54:24.929512Z</date>
+  <millis>1649458464929</millis>
+  <nanos>512000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:54:24.929512Z</date>
+  <millis>1649458464929</millis>
+  <nanos>512000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:54:56.939049700Z</date>
+  <millis>1649458496939</millis>
+  <nanos>49700</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+<record>
+  <date>2022-04-08T22:54:56.939049700Z</date>
+  <millis>1649458496939</millis>
+  <nanos>49700</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Wrong Credentials or Database Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:57:12.756086500Z</date>
+  <millis>1649458632756</millis>
+  <nanos>86500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:12.756086500Z</date>
+  <millis>1649458632756</millis>
+  <nanos>86500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:22.945267Z</date>
+  <millis>1649458642945</millis>
+  <nanos>267000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Course-Student creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:22.945267Z</date>
+  <millis>1649458642945</millis>
+  <nanos>267000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Course-Student creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:22.945267Z</date>
+  <millis>1649458642945</millis>
+  <nanos>267000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Course-Student creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:40.633402900Z</date>
+  <millis>1649458660633</millis>
+  <nanos>402900</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New test creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:40.633402900Z</date>
+  <millis>1649458660633</millis>
+  <nanos>402900</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New test creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:40.633402900Z</date>
+  <millis>1649458660633</millis>
+  <nanos>402900</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New test creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:40.633402900Z</date>
+  <millis>1649458660633</millis>
+  <nanos>402900</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New test creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:53.845269500Z</date>
+  <millis>1649458673845</millis>
+  <nanos>269500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New question creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:53.845269500Z</date>
+  <millis>1649458673845</millis>
+  <nanos>269500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New question creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:53.845269500Z</date>
+  <millis>1649458673845</millis>
+  <nanos>269500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New question creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:53.845269500Z</date>
+  <millis>1649458673845</millis>
+  <nanos>269500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New question creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:57:53.845269500Z</date>
+  <millis>1649458673845</millis>
+  <nanos>269500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New question creation failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-08T22:58:52.869181900Z</date>
+  <millis>1649458732869</millis>
+  <nanos>181900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-08T22:58:52.869181900Z</date>
+  <millis>1649458732869</millis>
+  <nanos>181900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T08:58:18.677674400Z</date>
+  <millis>1649494698677</millis>
+  <nanos>674400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T08:58:18.677674400Z</date>
+  <millis>1649494698677</millis>
+  <nanos>674400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:01:24.572114400Z</date>
+  <millis>1649494884572</millis>
+  <nanos>114400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:01:24.572114400Z</date>
+  <millis>1649494884572</millis>
+  <nanos>114400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:01:24.856107400Z</date>
+  <millis>1649494884856</millis>
+  <nanos>107400</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:01:24.856107400Z</date>
+  <millis>1649494884856</millis>
+  <nanos>107400</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:01:24.856107400Z</date>
+  <millis>1649494884856</millis>
+  <nanos>107400</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:02:33.609305600Z</date>
+  <millis>1649494953609</millis>
+  <nanos>305600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:02:33.609305600Z</date>
+  <millis>1649494953609</millis>
+  <nanos>305600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:02:33.891537900Z</date>
+  <millis>1649494953891</millis>
+  <nanos>537900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:02:33.891537900Z</date>
+  <millis>1649494953891</millis>
+  <nanos>537900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+<record>
+  <date>2022-04-09T09:02:33.891537900Z</date>
+  <millis>1649494953891</millis>
+  <nanos>537900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>New user creation failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:12:25.500278400Z</date>
+  <millis>1649495545500</millis>
+  <nanos>278400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:12:25.500278400Z</date>
+  <millis>1649495545500</millis>
+  <nanos>278400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Courses table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:12:25.787130900Z</date>
+  <millis>1649495545787</millis>
+  <nanos>130900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-09T09:12:25.787130900Z</date>
+  <millis>1649495545787</millis>
+  <nanos>130900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New course added</message>
+</record>
+<record>
+  <date>2022-04-09T09:12:25.787130900Z</date>
+  <millis>1649495545787</millis>
+  <nanos>130900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New course added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:17:09.472868Z</date>
+  <millis>1649495829472</millis>
+  <nanos>868000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>tests table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:09.472868Z</date>
+  <millis>1649495829472</millis>
+  <nanos>868000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>tests table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:09.762705Z</date>
+  <millis>1649495829762</millis>
+  <nanos>705000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:09.762705Z</date>
+  <millis>1649495829762</millis>
+  <nanos>705000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:09.762705Z</date>
+  <millis>1649495829762</millis>
+  <nanos>705000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New test added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.097563200Z</date>
+  <millis>1649495841097</millis>
+  <nanos>563200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.097563200Z</date>
+  <millis>1649495841097</millis>
+  <nanos>563200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.097563200Z</date>
+  <millis>1649495841097</millis>
+  <nanos>563200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.097563200Z</date>
+  <millis>1649495841097</millis>
+  <nanos>563200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>questions table created</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.374374Z</date>
+  <millis>1649495841374</millis>
+  <nanos>374000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.374374Z</date>
+  <millis>1649495841374</millis>
+  <nanos>374000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.374374Z</date>
+  <millis>1649495841374</millis>
+  <nanos>374000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.374374Z</date>
+  <millis>1649495841374</millis>
+  <nanos>374000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:21.374374Z</date>
+  <millis>1649495841374</millis>
+  <nanos>374000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+<record>
+  <date>2022-04-09T09:17:44.080799300Z</date>
+  <millis>1649495864080</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>New question added</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:34:47.384429100Z</date>
+  <millis>1649496887384</millis>
+  <nanos>429100</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:34:47.384429100Z</date>
+  <millis>1649496887384</millis>
+  <nanos>429100</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:35:47.395772Z</date>
+  <millis>1649496947395</millis>
+  <nanos>772000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
