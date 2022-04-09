@@ -19,7 +19,6 @@ public class DBconnection  {
         Dotenv dotenv = null;
         dotenv = Dotenv.configure().load();
 
-        System.out.println();
         try {
             if(database == sqliteDB) {
                 conn = DriverManager.getConnection("jdbc:sqlite:db.sqlite");
@@ -42,15 +41,5 @@ public class DBconnection  {
             e.printStackTrace();
             return null;
         }
-//        finally {
-//            if(conn != null){
-//                try{
-//                    conn.close();
-//                }
-//                catch (SQLException e){
-//                    e.printStackTrace();
-//                }
-//            }
-//        }
     }
 }

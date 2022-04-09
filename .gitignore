@@ -1,5 +1,6 @@
-out/
 logs.log.*
 .env
-dependencies/
 dependencies
+dependencies/
+out/
+

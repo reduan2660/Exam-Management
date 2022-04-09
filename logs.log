@@ -4446,3 +4446,135 @@
   <message>Database Connection Failed</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:49:22.250449700Z</date>
+  <millis>1649497762250</millis>
+  <nanos>449700</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>warning</method>
+  <thread>19</thread>
+  <message>Database Connection Failed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-09T09:50:25.417228900Z</date>
+  <millis>1649497825417</millis>
+  <nanos>228900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:25.417228900Z</date>
+  <millis>1649497825417</millis>
+  <nanos>228900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:29.291585900Z</date>
+  <millis>1649497829291</millis>
+  <nanos>585900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:29.291585900Z</date>
+  <millis>1649497829291</millis>
+  <nanos>585900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:29.291585900Z</date>
+  <millis>1649497829291</millis>
+  <nanos>585900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:34.153753300Z</date>
+  <millis>1649497834153</millis>
+  <nanos>753300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:34.153753300Z</date>
+  <millis>1649497834153</millis>
+  <nanos>753300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:34.153753300Z</date>
+  <millis>1649497834153</millis>
+  <nanos>753300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+<record>
+  <date>2022-04-09T09:50:34.153753300Z</date>
+  <millis>1649497834153</millis>
+  <nanos>753300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>19</thread>
+  <message>Question Updated</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

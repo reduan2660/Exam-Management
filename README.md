@@ -2,13 +2,13 @@
 
 - Plugins (Intellij)
   - Search for javafx and install the first party library
-  
+
 ---
 
 - Libraries
-    - dotenv-java
-        - Go to File/Project Structure/Global Libraries/+/ 
-        - Search for "dotenv-java" and install version 2.2.3
+  - dotenv-java
+    - Go to File/Project Structure/Global Libraries/+/
+    - Search for "dotenv-java" and install version 2.2.3
 
 ---
 
@@ -18,9 +18,12 @@
 
 > Next up
 
-- Edit Questions
+- Edit Questions and Everything
+- Print Question
+- Let students take exam
 
 > Done
+
 - Mysql Connection
 - Edit Courses and tests
 - Course Details
