@@ -25,7 +25,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 
 public class TestEditController implements Initializable {
-    public Button profileBtn;
+    public Button profileBtn, updateInstructionBtn, updateTitleBtn;
     public TextField testTitle, testTime;
     public TextArea testInstructions;
 
@@ -112,6 +112,28 @@ public class TestEditController implements Initializable {
 
 
 
+    }
+
+    @FXML
+    protected void updateInstruction(){
+        Session.sessTest.setInstructions(testInstructions.getText());
+        if(Session.sessTest.update()){
+            updateInstructionBtn.setText("Updated!");
+        }
+        else{
+            updateInstructionBtn.setText("Update Failed");
+        }
+    }
+
+    @FXML
+    protected void updateTitle(){
+        Session.sessTest.setTitle(testTitle.getText());
+        if(Session.sessTest.update()){
+            updateTitleBtn.setText("Updated!");
+        }
+        else{
+            updateTitleBtn.setText("Update Failed");
+        }
     }
 
     @FXML

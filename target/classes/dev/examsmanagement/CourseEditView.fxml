@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.CourseEditController">
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.CourseEditController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24a0ed" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1280.0" />
       <Button layoutX="190.0" layoutY="16.0" mnemonicParsing="false" onAction="#createCourse" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Create New Course" textFill="WHITE">
@@ -73,5 +73,21 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
+      <Button fx:id="updateTitleBtn" layoutX="899.0" layoutY="91.0" mnemonicParsing="false" onAction="#updateTitle" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="updateDescriptionBtn" layoutX="899.0" layoutY="152.0" mnemonicParsing="false" onAction="#updateDescription" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
    </children>
 </AnchorPane>

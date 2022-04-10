@@ -18,12 +18,13 @@
 
 > Next up
 
-- Edit Coutse and Test
 - Print Question
 - Let students take exam
+- Change time, add & remove student
 
-> Done
+  > Done
 
+- Edit courses and tests
 - Edit Questions
 - Single Connection
 - Mysql Connection

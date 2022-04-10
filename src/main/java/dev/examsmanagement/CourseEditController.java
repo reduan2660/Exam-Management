@@ -23,7 +23,7 @@ import java.time.LocalDateTime;
 import java.util.ResourceBundle;
 
 public class CourseEditController implements Initializable {
-    public Button profileBtn;
+    public Button profileBtn, updateTitleBtn, updateDescriptionBtn;
     public TextField courseTitle;
     public TextArea courseDesc;
 
@@ -89,6 +89,30 @@ public class CourseEditController implements Initializable {
     protected void createTest() throws IOException {
         Session.switchScene("TestCreateView.fxml");
     }
+
+    @FXML
+    protected void updateTitle(){
+        Session.sessCourse.setTitle(courseTitle.getText());
+        if(Session.sessCourse.update()){
+            updateTitleBtn.setText("Updated!");
+        }
+        else{
+            updateTitleBtn.setText("Update Failed");
+        }
+
+    }
+    @FXML
+    protected void updateDescription(){
+        Session.sessCourse.setDescription(courseDesc.getText());
+        Session.sessCourse.update();
+        if(Session.sessCourse.update()){
+            updateDescriptionBtn.setText("Updated!");
+        }
+        else{
+            updateDescriptionBtn.setText("Update Failed");
+        }
+    }
+
 
     @FXML
     protected void addStudents() throws IOException {

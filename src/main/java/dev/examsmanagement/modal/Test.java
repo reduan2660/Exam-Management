@@ -57,8 +57,16 @@ public class Test {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getInstructions() {
         return instructions;
+    }
+
+    public void setInstructions(String instructions) {
+        this.instructions = instructions;
     }
 
     public LocalDateTime getTime() {
@@ -180,4 +188,23 @@ public class Test {
         }
     }
 
+    public boolean update(){
+        Connection conn = DBconnection.conn;
+        String sqlQ = "UPDATE tests " +
+                "SET title=\'" + title + "\'," +
+                " instructions=\'" + instructions + "\'" +
+                " WHERE id = " + id + " ;";
+
+        try{
+            Statement sqlSt = conn.createStatement();
+            sqlSt.execute(sqlQ);
+            Log.info("Test Updated");
+            return true;
+        } catch (SQLException e) {
+            Log.info("Test Update Failed");
+            e.printStackTrace();
+            return false;
+        }
+
+    }
 }

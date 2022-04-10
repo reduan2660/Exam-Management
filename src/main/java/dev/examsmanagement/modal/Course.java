@@ -29,6 +29,14 @@ public class Course {
         instrcutor = _instrcutor;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     @Override
     public String toString() {
         return title;
@@ -114,6 +122,26 @@ public class Course {
             Log.warning("New user creation failed");
             return false;
         }
+    }
+
+    public boolean update(){
+        Connection conn = DBconnection.conn;
+        String sqlQ = "UPDATE courses " +
+                "SET title=\'" + title + "\'," +
+                " description=\'" + description + "\'" +
+                " WHERE id = " + id + " ;";
+
+        try{
+            Statement sqlSt = conn.createStatement();
+            sqlSt.execute(sqlQ);
+            Log.info("Course Updated");
+            return true;
+        } catch (SQLException e) {
+            Log.info("Course Update Failed");
+            e.printStackTrace();
+            return false;
+        }
+
     }
 
     public boolean addStudents(String[] students){
