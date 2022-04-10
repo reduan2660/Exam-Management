@@ -35,7 +35,6 @@ public class MCQcontroller extends QuestionController{
         }
 
         MCQquestion newMCQ = new MCQquestion(questionTitle.getText(), Integer.parseInt(questionPoint.getText()),options,correctIndex, Session.sessTest);
-        System.out.println(newMCQ.toString());
         newMCQ.saveQuestion();
     }
 }

@@ -35,7 +35,8 @@ public class InstructorController implements Initializable {
         profileBtn.setText(Session.getCurrentUser().getName());
 
 //        --- Get all courses of this instructor ---
-        Connection conn = DBconnection.DBconnect();
+//        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "SELECT * FROM courses WHERE instructor=\'" + Session.getCurrentUser().getEmail() + "\'  ORDER BY id DESC;";
 
         try {
@@ -52,11 +53,11 @@ public class InstructorController implements Initializable {
             e.printStackTrace();
         }
 
-        try {
-            conn.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            conn.close();
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
 
 //        --- If course selected then save course to session and forward to course edit view
         courseList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Course>() {

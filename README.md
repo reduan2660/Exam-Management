@@ -18,12 +18,14 @@
 
 > Next up
 
-- Edit Questions and Everything
+- Edit Coutse and Test
 - Print Question
 - Let students take exam
 
 > Done
 
+- Edit Questions
+- Single Connection
 - Mysql Connection
 - Edit Courses and tests
 - Course Details

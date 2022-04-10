@@ -48,8 +48,7 @@ public class Question {
     }
 
     public boolean saveQuestion() throws IOException, SQLException {
-        Connection conn = DBconnection.DBconnect();
-
+        Connection conn = DBconnection.conn;
         String sqlQ = null;
         if(DBconnection.database == DBconnection.mysqlDB) {
             sqlQ = "CREATE Table questions (" +
@@ -105,20 +104,18 @@ public class Question {
                 e.printStackTrace();
             }
 
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("New question creation failed");
-            conn.close();
             return false;
         }
     }
 
     public boolean updateQuestion() throws IOException, SQLException {
 
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "UPDATE questions " +
                 "SET title=\'" + question + "\'," +
                 " points=" + points +
@@ -129,14 +126,13 @@ public class Question {
             PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
             sqlSt.executeUpdate();
             Log.info("Question Updated");
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("question update failed");
-            conn.close();
             return false;
         }
     }
+
 }

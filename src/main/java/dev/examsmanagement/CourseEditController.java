@@ -37,7 +37,7 @@ public class CourseEditController implements Initializable {
         courseDesc.setText(Session.sessCourse.getDescription());
 
 //        --- Get all tests of this course ---
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "SELECT * FROM tests WHERE course=" + Session.sessCourse.getId() + " ORDER BY id DESC;";
 
         try {
@@ -69,13 +69,6 @@ public class CourseEditController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-//      --- Close Database Connection ---
-        try {
-            conn.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
 
 //        --- If course selected then save course to session and forward to course edit view
         testList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Test>() {

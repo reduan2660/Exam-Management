@@ -36,7 +36,7 @@ public class User {
     public boolean newUserValidation() throws SQLException {
         boolean returnFlag = true;
 // -- Check For Same Email --
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "SELECT COUNT(*) FROM users WHERE email=\'" + email + "\';";
         try{
             Statement sqlSt = conn.createStatement();
@@ -57,7 +57,6 @@ public class User {
             returnFlag = false;
         }
 
-        conn.close();
         return returnFlag;
     }
 
@@ -66,9 +65,7 @@ public class User {
     }
 
     public boolean saveUser() throws IOException, SQLException {
-
-
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "CREATE Table users (email VARCHAR(255) NOT NULL PRIMARY KEY, name VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, isinstructor INT NOT NULL);";
         try{
             Statement sqlSt = conn.createStatement();
@@ -89,13 +86,11 @@ public class User {
             sqlSt.executeUpdate();
             Log.info("New user added");
 
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("New user creation failed");
-            conn.close();
             return false;
         }
     }

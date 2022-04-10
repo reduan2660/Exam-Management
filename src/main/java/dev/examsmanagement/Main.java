@@ -1,5 +1,6 @@
 package dev.examsmanagement;
 
+import dev.examsmanagement.db.DBconnection;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -21,7 +22,7 @@ public class Main extends Application {
         Connection conn = dev.examsmanagement.db.DBconnection.DBconnect();
         if(conn != null){
             logs.fine("Database Connection Successful");
-            conn.close();
+            DBconnection.conn = conn;
         }else{
             logs.warning("Database Connection Failed");
         }
@@ -34,6 +35,11 @@ public class Main extends Application {
 
     }
 
+    @Override
+    public void stop() throws SQLException {
+        Log.info("Closing Database Connection");
+        DBconnection.conn.close();
+    }
     public static void main(String[] args) {
         launch();
     }

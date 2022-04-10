@@ -29,7 +29,10 @@ public class LoginController {
     @FXML
     protected void login(ActionEvent event) throws IOException, SQLException {
 
-        Connection conn = DBconnection.DBconnect();
+        loginValidation.setText("Logging in. Please Wait.");
+
+//        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "SELECT * FROM users WHERE email=\'" + loginEmail.getText() + "\' AND password=\'" + loginPassword.getText() + "\' LIMIT 1;";
 
 
@@ -62,7 +65,7 @@ public class LoginController {
             loginValidation.setText("Wrong Credentials.");
         }
 
-        conn.close();
+//        conn.close();
     }
 
     @FXML

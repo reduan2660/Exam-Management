@@ -98,7 +98,7 @@ public class Test {
     }
 
     public boolean saveTest() throws IOException, SQLException {
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = null;
         if(DBconnection.database == DBconnection.mysqlDB) {
             sqlQ = "CREATE Table tests (" +
@@ -171,13 +171,11 @@ public class Test {
                 e.printStackTrace();
             }
 
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("New test creation failed");
-            conn.close();
             return false;
         }
     }

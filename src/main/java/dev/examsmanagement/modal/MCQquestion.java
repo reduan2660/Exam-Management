@@ -23,6 +23,25 @@ public class MCQquestion extends Question {
         correctOptionIndex = _correctOptionIndex;
     }
 
+    public void setOptions(String option1, String option2, String option3, String option4) {
+        options[0] = option1;
+        options[1] = option2;
+        options[2] = option3;
+        options[3] = option4;
+    }
+
+    public String[] getOptions() {
+        return options;
+    }
+
+    public int getCorrectOptionIndex() {
+        return correctOptionIndex;
+    }
+
+    public void setCorrectOptionIndex(int correctOptionIndex) {
+        this.correctOptionIndex = correctOptionIndex;
+    }
+
     @Override
     public String toString() {
         return "Points: " + points + " | " + question + " | " + Arrays.toString(options);
@@ -30,8 +49,7 @@ public class MCQquestion extends Question {
 
     @Override
     public boolean saveQuestion() throws IOException, SQLException {
-        Connection conn = DBconnection.DBconnect();
-
+        Connection conn = DBconnection.conn;
         String sqlQ = null;
         if(DBconnection.database == DBconnection.mysqlDB) {
             sqlQ = "CREATE Table mcqquestions (" +
@@ -102,13 +120,42 @@ public class MCQquestion extends Question {
                 e.printStackTrace();
             }
 
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("New mcqquestions creation failed");
-            conn.close();
+            return false;
+        }
+    }
+
+    @Override
+    public boolean updateQuestion() throws IOException, SQLException {
+
+        System.out.println(this.toString());
+
+        Connection conn = DBconnection.conn;
+        String sqlQ = "UPDATE mcqquestions " +
+                "SET title=\'" + question + "\'," +
+                " points=" + points + ", " +
+                " givenPoint=" + givenPoint + ", " +
+                " option1=\'" + options[0] + "\', " +
+                " option2=\'" + options[1] + "\', " +
+                " option3=\'" + options[2] + "\', " +
+                " option4=\'" + options[3] + "\', " +
+                " correctOption=" + correctOptionIndex +
+                " WHERE test=" + test.getId() +
+                " AND id = " + id + " ;";
+        System.out.println(sqlQ);
+        try{
+            PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
+            sqlSt.executeUpdate();
+            Log.info("Question Updated");
+            return true;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            Log.warning("question update failed");
             return false;
         }
     }

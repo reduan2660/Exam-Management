@@ -54,7 +54,7 @@ public class Course {
     }
 
     public boolean saveCourse() throws IOException, SQLException {
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = null;
         if(DBconnection.database == DBconnection.mysqlDB) {
             sqlQ = "CREATE Table courses (" +
@@ -107,20 +107,17 @@ public class Course {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-
-            conn.close();
             return true;
         }
         catch (SQLException e){
             e.printStackTrace();
             Log.warning("New user creation failed");
-            conn.close();
             return false;
         }
     }
 
     public boolean addStudents(String[] students){
-        Connection conn = DBconnection.DBconnect();
+        Connection conn = DBconnection.conn;
         String sqlQ = "CREATE Table course_student (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "course INTEGER NOT NULL," +
@@ -152,11 +149,6 @@ public class Course {
             }
         }
 
-        try {
-            conn.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
         return returnFlag;
     }
 }

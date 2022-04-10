@@ -1,9 +1,6 @@
 package dev.examsmanagement;
 
-import dev.examsmanagement.modal.Course;
-import dev.examsmanagement.modal.Question;
-import dev.examsmanagement.modal.Test;
-import dev.examsmanagement.modal.User;
+import dev.examsmanagement.modal.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -19,6 +16,7 @@ public class Session {
     public static Course sessCourse = null;
     public static Test sessTest = null;
     public static Question sessQuestion = null;
+    public static MCQquestion sessMCQ = null;
     public static Stage primaryStage = null;
 
     public static void setCurrentUser(User _currentUser) {
