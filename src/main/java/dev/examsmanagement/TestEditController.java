@@ -1,10 +1,8 @@
 package dev.examsmanagement;
 
 import dev.examsmanagement.db.DBconnection;
-import dev.examsmanagement.modal.Course;
-import dev.examsmanagement.modal.MCQquestion;
-import dev.examsmanagement.modal.Question;
-import dev.examsmanagement.modal.Test;
+import dev.examsmanagement.model.MCQquestion;
+import dev.examsmanagement.model.Question;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -20,11 +18,10 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 
-public class TestEditController implements Initializable {
+public class TestEditController extends InstructorNavController {
     public Button profileBtn, updateInstructionBtn, updateTitleBtn;
     public TextField testTitle, testTime;
     public TextArea testInstructions;
@@ -155,22 +152,5 @@ public class TestEditController implements Initializable {
     protected void addStudents() throws IOException {
         System.out.println("Add students");
 //        Session.switchScene("AddStudentToCourseView.fxml");
-    }
-//    --- Navigation ---
-
-    @FXML
-    protected void createCourse() throws IOException {
-        Session.switchScene("CourseCreateView.fxml"); // Switch scene to CourseCreateView
-    }
-
-    @FXML
-    protected void allCourse() throws IOException {
-        Session.switchScene("InstructorView.fxml");
-    }
-
-    @FXML
-    protected void logout() throws IOException {
-        Session.logout();
-        Session.switchScene("LoginView.fxml"); // Switch scene to login
     }
 }

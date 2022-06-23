@@ -1,11 +1,10 @@
-package dev.examsmanagement.modal;
+package dev.examsmanagement.model;
 
 import dev.examsmanagement.Log;
 import dev.examsmanagement.db.DBconnection;
 
 import java.io.IOException;
 import java.sql.*;
-import java.time.format.DateTimeFormatter;
 
 public class Question {
     protected int id;

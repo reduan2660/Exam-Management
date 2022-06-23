@@ -1,15 +1,11 @@
 package dev.examsmanagement;
 
 import dev.examsmanagement.db.DBconnection;
-import dev.examsmanagement.modal.User;
+import dev.examsmanagement.model.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
@@ -18,7 +14,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Objects;
 
 public class LoginController {
     @FXML

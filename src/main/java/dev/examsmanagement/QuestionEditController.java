@@ -1,6 +1,5 @@
 package dev.examsmanagement;
 
-import dev.examsmanagement.modal.Question;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,8 +18,8 @@ import java.sql.SQLException;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class QuestionEditController implements Initializable {
-    public Button profileBtn;
+public class QuestionEditController extends InstructorNavController {
+
     public TextField questionPoint;
     public TextArea questionTitle;
 
@@ -38,25 +37,4 @@ public class QuestionEditController implements Initializable {
 
         Session.switchScene("TestEditView.fxml");
     }
-
-
-    //    --- Navigation ---
-    @FXML
-    protected void allCourse(ActionEvent event) throws IOException {
-        Session.switchScene("InstructorView.fxml", event);
-    }
-
-    @FXML
-    protected void logout(ActionEvent event) throws IOException {
-        Session.logout();
-
-//        -- switch scene to login --
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LoginView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-
 }

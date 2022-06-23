@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.TestEditController">
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.TestEditController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24a0ed" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1280.0" />
       <Button layoutX="190.0" layoutY="16.0" mnemonicParsing="false" onAction="#createCourse" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Create New Course" textFill="WHITE">
@@ -33,7 +34,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <ListView fx:id="questionList" editable="true" layoutX="108.0" layoutY="353.0" prefHeight="329.0" prefWidth="496.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
+      <ListView fx:id="questionList" editable="true" layoutX="95.0" layoutY="342.0" prefHeight="329.0" prefWidth="496.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
       <Label layoutX="339.0" layoutY="96.0" text="Title:">
          <font>
             <Font name="Cambria" size="16.0" />
@@ -52,21 +53,21 @@
          <font>
             <Font name="Cambria" size="16.0" />
          </font></TextArea>
-      <Button layoutX="226.0" layoutY="291.0" mnemonicParsing="false" onAction="#addQuestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add CQ">
+      <Button layoutX="283.0" layoutY="677.0" mnemonicParsing="false" onAction="#addQuestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add CQ">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="addStudents" layoutX="904.0" layoutY="291.0" mnemonicParsing="false" onAction="#changeTime" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Change Time">
+      <Button fx:id="addStudents" layoutX="900.0" layoutY="136.0" mnemonicParsing="false" onAction="#changeTime" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="319.0" layoutY="291.0" mnemonicParsing="false" onAction="#addMCQ" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ">
+      <Button layoutX="884.0" layoutY="677.0" mnemonicParsing="false" onAction="#addMCQ" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
@@ -84,7 +85,7 @@
             <Font name="Cambria" size="16.0" />
          </font>
       </TextField>
-      <ListView fx:id="mcqQuestionList" editable="true" layoutX="679.0" layoutY="353.0" prefHeight="329.0" prefWidth="496.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
+      <ListView fx:id="mcqQuestionList" editable="true" layoutX="679.0" layoutY="342.0" prefHeight="329.0" prefWidth="496.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
       <Button fx:id="updateTitleBtn" layoutX="900.0" layoutY="93.0" mnemonicParsing="false" onAction="#updateTitle" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
          <font>
             <Font name="Cambria" size="16.0" />
@@ -93,7 +94,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="updateInstructionBtn" layoutX="899.0" layoutY="180.0" mnemonicParsing="false" onAction="#updateInstruction" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
+      <Button fx:id="updateInstructionBtn" layoutX="900.0" layoutY="179.0" mnemonicParsing="false" onAction="#updateInstruction" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
@@ -101,5 +102,15 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <Text layoutX="320.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CQ">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="925.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MCQ">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

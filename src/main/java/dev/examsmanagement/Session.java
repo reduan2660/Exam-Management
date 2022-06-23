@@ -1,6 +1,6 @@
 package dev.examsmanagement;
 
-import dev.examsmanagement.modal.*;
+import dev.examsmanagement.model.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;

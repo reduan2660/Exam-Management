@@ -18,7 +18,7 @@ public class DBconnection  {
     public static Connection conn = null;
 
     public static Connection DBconnect(){
-        Log.info("Creating New Database Connection");
+        Log.info("Creating New " + database + " Database Connection " );
 //        Connection conn = null;
 //        --- Database config ---
         Dotenv dotenv = null;

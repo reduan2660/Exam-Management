@@ -1,6 +1,5 @@
 package dev.examsmanagement;
 
-import dev.examsmanagement.modal.MCQquestion;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 

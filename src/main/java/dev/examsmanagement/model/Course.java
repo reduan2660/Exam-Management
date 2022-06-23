@@ -1,7 +1,6 @@
-package dev.examsmanagement.modal;
+package dev.examsmanagement.model;
 
 import dev.examsmanagement.Log;
-import dev.examsmanagement.Session;
 import dev.examsmanagement.db.DBconnection;
 
 import java.io.IOException;

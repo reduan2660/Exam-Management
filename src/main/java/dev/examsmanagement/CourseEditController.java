@@ -1,11 +1,9 @@
 package dev.examsmanagement;
 
 import dev.examsmanagement.db.DBconnection;
-import dev.examsmanagement.modal.Course;
-import dev.examsmanagement.modal.Test;
+import dev.examsmanagement.model.Test;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -22,7 +20,7 @@ import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.util.ResourceBundle;
 
-public class CourseEditController implements Initializable {
+public class CourseEditController extends InstructorNavController {
     public Button profileBtn, updateTitleBtn, updateDescriptionBtn;
     public TextField courseTitle;
     public TextArea courseDesc;
@@ -113,27 +111,10 @@ public class CourseEditController implements Initializable {
         }
     }
 
-
     @FXML
     protected void addStudents() throws IOException {
         System.out.println("Add students");
 //        Session.switchScene("AddStudentToCourseView.fxml");
     }
-//    --- Navigation ---
 
-    @FXML
-    protected void createCourse() throws IOException {
-        Session.switchScene("CourseCreateView.fxml"); // Switch scene to CourseCreateView
-    }
-
-    @FXML
-    protected void allCourse() throws IOException {
-        Session.switchScene("InstructorView.fxml");
-    }
-
-    @FXML
-    protected void logout() throws IOException {
-        Session.logout();
-        Session.switchScene("LoginView.fxml"); // Switch scene to login
-    }
 }

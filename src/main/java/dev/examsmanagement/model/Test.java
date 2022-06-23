@@ -1,4 +1,4 @@
-package dev.examsmanagement.modal;
+package dev.examsmanagement.model;
 
 import dev.examsmanagement.Log;
 import dev.examsmanagement.db.DBconnection;
@@ -6,9 +6,7 @@ import dev.examsmanagement.db.DBconnection;
 import java.io.IOException;
 import java.sql.*;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoField;
 
 public class Test {
     private int id;

@@ -1,4 +1,4 @@
-package dev.examsmanagement.modal;
+package dev.examsmanagement.model;
 import dev.examsmanagement.Log;
 import dev.examsmanagement.db.DBconnection;
 

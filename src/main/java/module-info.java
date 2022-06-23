@@ -14,6 +14,6 @@ module dev.examsmanagement {
 
     opens dev.examsmanagement to javafx.fxml;
     exports dev.examsmanagement;
-    exports dev.examsmanagement.modal;
-    opens dev.examsmanagement.modal to javafx.fxml;
+    exports dev.examsmanagement.model;
+    opens dev.examsmanagement.model to javafx.fxml;
 }

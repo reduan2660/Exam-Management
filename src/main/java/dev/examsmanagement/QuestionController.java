@@ -1,6 +1,6 @@
 package dev.examsmanagement;
 
-import dev.examsmanagement.modal.Question;
+import dev.examsmanagement.model.Question;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,16 +19,9 @@ import java.sql.SQLException;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class QuestionController implements Initializable {
-    public Button profileBtn;
+public class QuestionController extends InstructorNavController {
     public TextField questionPoint;
     public TextArea questionTitle;
-
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        profileBtn.setText(Session.getCurrentUser().getName());
-
-    }
 
     protected void saveQuestion() throws SQLException, IOException {
         Question newQuestion = new Question(questionTitle.getText(), Integer.parseInt(questionPoint.getText()), Session.sessTest);
@@ -53,24 +46,4 @@ public class QuestionController implements Initializable {
         saveQuestion();
         Session.switchScene("InstructorView.fxml", event);
     }
-
-    //    --- Navigation ---
-    @FXML
-    protected void allCourse(ActionEvent event) throws IOException {
-        Session.switchScene("InstructorView.fxml", event);
-    }
-
-    @FXML
-    protected void logout(ActionEvent event) throws IOException {
-        Session.logout();
-
-//        -- switch scene to login --
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LoginView.fxml")));
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-
 }
