@@ -12,12 +12,14 @@ public class Test {
     private int id;
     private String title, instructions;
     private LocalDateTime time;
+    private int duration;
     private boolean allowLateSubmission, randomQuestions;
     private Course course;
 
     public Test(String _title,
                 String _instructions,
                 LocalDateTime _time,
+                int _duration,
                 boolean _allowLateSubmission,
                 boolean _randomQuestions,
                 Course _course)
@@ -25,6 +27,7 @@ public class Test {
         title = _title;
         instructions = _instructions;
         time = _time;
+        duration = _duration;
         allowLateSubmission = _allowLateSubmission;
         randomQuestions = _randomQuestions;
         course = _course;
@@ -34,6 +37,7 @@ public class Test {
                 String _title,
                 String _instructions,
                 LocalDateTime _time,
+                int _duration,
                 boolean _allowLateSubmission,
                 boolean _randomQuestions,
                 Course _course)
@@ -42,6 +46,7 @@ public class Test {
         title = _title;
         instructions = _instructions;
         time = _time;
+        duration = _duration;
         allowLateSubmission = _allowLateSubmission;
         randomQuestions = _randomQuestions;
         course = _course;
@@ -70,6 +75,8 @@ public class Test {
     public LocalDateTime getTime() {
         return time;
     }
+
+    public int getDuration() { return duration; }
 
     @Override
     public String toString() {
@@ -112,6 +119,7 @@ public class Test {
                     "title VARCHAR(255) NOT NULL," +
                     "instructions VARCHAR(255)," +
                     "time VARCHAR(255) NOT NULL," +
+                    "duration INTEGER NOT NULL," +
                     "course INTEGER NOT NULL," +
                     "allowLateSubmission INTEGER NOT NULL," +
                     "randomQuestions INTEGER NOT NULL" +
@@ -123,6 +131,7 @@ public class Test {
                     "title VARCHAR(255) NOT NULL," +
                     "instructions VARCHAR(255)," +
                     "time VARCHAR(255) NOT NULL," +
+                    "duration INTEGER NOT NULL," +
                     "course INTEGER NOT NULL," +
                     "allowLateSubmission INTEGER NOT NULL," +
                     "randomQuestions INTEGER NOT NULL" +
@@ -136,25 +145,26 @@ public class Test {
 //            e.printStackTrace();
         }
 
-        sqlQ = "INSERT INTO tests(title, instructions, time, course, allowLateSubmission, randomQuestions) VALUES(?,?,?,?,?,?);";
+        sqlQ = "INSERT INTO tests(title, instructions, time, duration, course, allowLateSubmission, randomQuestions) VALUES(?,?,?,?,?,?,?);";
         try{
             PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
             sqlSt.setString(1, title);
             sqlSt.setString(2, instructions);
             sqlSt.setString(3, time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")));
-            sqlSt.setInt(4, course.getId());
+            sqlSt.setInt(4, duration);
+            sqlSt.setInt(5, course.getId());
             if(allowLateSubmission){
-                sqlSt.setInt(5, 1);
-            }
-            else{
-                sqlSt.setInt(5, 0);
-            }
-
-            if(randomQuestions){
                 sqlSt.setInt(6, 1);
             }
             else{
                 sqlSt.setInt(6, 0);
+            }
+
+            if(randomQuestions){
+                sqlSt.setInt(7, 1);
+            }
+            else{
+                sqlSt.setInt(7, 0);
             }
 
             sqlSt.executeUpdate();

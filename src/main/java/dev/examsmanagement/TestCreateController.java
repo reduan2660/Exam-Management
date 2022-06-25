@@ -20,7 +20,7 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class TestCreateController extends InstructorNavController {
-    public TextField testTitle;
+    public TextField testTitle, testDuration;
     public TextArea testInstruction;
     public DatePicker testTime;
     public ChoiceBox testHour, testMinute, testAMPM;
@@ -54,7 +54,7 @@ public class TestCreateController extends InstructorNavController {
         LocalDateTime time = Test.toTime(date.toString(), Integer.parseInt(testHour.getValue().toString()), Integer.parseInt(testMinute.getValue().toString()), testAMPM.getValue().toString());
 
 //        --- Store the test ---
-        Test newTest = new Test(testTitle.getText(), testInstruction.getText(), time, testLateSubmission.isSelected(), testRandomQuestion.isSelected(), Session.sessCourse);
+        Test newTest = new Test(testTitle.getText(), testInstruction.getText(), time, Integer.parseInt(testDuration.getText()) ,testLateSubmission.isSelected(), testRandomQuestion.isSelected(), Session.sessCourse);
         newTest.saveTest();
 
         Session.sessTest = newTest;  //   Save to session

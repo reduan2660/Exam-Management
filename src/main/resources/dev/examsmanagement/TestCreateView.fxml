@@ -40,7 +40,7 @@
             <Font name="Cambria" size="16.0" />
          </font>
       </Label>
-      <Button fx:id="addQus" layoutX="351.0" layoutY="479.0" mnemonicParsing="false" onAction="#addMCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ Questions">
+      <Button fx:id="addQus" layoutX="351.0" layoutY="534.0" mnemonicParsing="false" onAction="#addMCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ Questions">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
@@ -69,17 +69,17 @@
          </font>
       </TextArea>
       <DatePicker fx:id="testTime" layoutX="421.0" layoutY="296.0" prefHeight="25.0" prefWidth="182.0" />
-      <CheckBox fx:id="testLateSubmission" layoutX="424.0" layoutY="363.0" mnemonicParsing="false" text="Allow late submission">
+      <CheckBox fx:id="testLateSubmission" layoutX="424.0" layoutY="418.0" mnemonicParsing="false" text="Allow late submission">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
       </CheckBox>
-      <CheckBox fx:id="testRandomQuestion" layoutX="425.0" layoutY="407.0" mnemonicParsing="false" text="Random order questions">
+      <CheckBox fx:id="testRandomQuestion" layoutX="425.0" layoutY="462.0" mnemonicParsing="false" text="Random order questions">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
       </CheckBox>
-      <Button fx:id="addQus1" layoutX="621.0" layoutY="479.0" mnemonicParsing="false" onAction="#addCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add CQ Questions">
+      <Button fx:id="addQus1" layoutX="621.0" layoutY="534.0" mnemonicParsing="false" onAction="#addCQquestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add CQ Questions">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>
@@ -90,5 +90,16 @@
       <ChoiceBox fx:id="testHour" layoutX="623.0" layoutY="296.0" prefHeight="25.0" prefWidth="57.0" />
       <ChoiceBox fx:id="testMinute" layoutX="695.0" layoutY="297.0" prefHeight="25.0" prefWidth="57.0" />
       <ChoiceBox fx:id="testAMPM" layoutX="771.0" layoutY="298.0" prefHeight="25.0" prefWidth="43.0" />
+      <Label layoutX="264.0" layoutY="360.0" text="Duration:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="testDuration" layoutX="424.0" layoutY="357.0" />
+      <Label layoutX="590.0" layoutY="359.0" text="Minutes">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>

@@ -60,7 +60,7 @@ public class CourseEditController extends InstructorNavController {
                     randomQuestions = false;
                 }
 
-                Test test = new Test(rs.getInt("id"), rs.getString("title"), rs.getString("instructions"), t, allowLateSubmission, randomQuestions, Session.sessCourse);
+                Test test = new Test(rs.getInt("id"), rs.getString("title"), rs.getString("instructions"), t, rs.getInt("duration"), allowLateSubmission, randomQuestions, Session.sessCourse);
                 testList.getItems().add(test);
             }
 
