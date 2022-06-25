@@ -1,12 +1,14 @@
 package dev.examsmanagement.model;
 
 import dev.examsmanagement.Log;
+import dev.examsmanagement.Session;
 import dev.examsmanagement.db.DBconnection;
 
 import java.io.IOException;
 import java.sql.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class Test {
     private int id;
@@ -80,7 +82,7 @@ public class Test {
 
     @Override
     public String toString() {
-        return title + " at " + time.format(DateTimeFormatter.ofPattern("HH:mm dd-MM-yy"));
+        return title + " at " + DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM).format(time);
     }
 
     public static LocalDateTime toTime(String date, int hour, int minute, String ampm){

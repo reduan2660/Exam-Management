@@ -25,6 +25,8 @@ public class Question {
         test = _test;
     }
 
+    public int getId(){ return id; }
+
     public String getQuestion() {
         return question;
     }
