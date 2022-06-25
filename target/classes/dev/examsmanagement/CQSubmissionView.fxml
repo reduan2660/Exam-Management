@@ -36,7 +36,7 @@
             <Font size="16.0" />
          </font>
       </Text>
-      <Button fx:id="submitBtn" layoutX="622.0" layoutY="426.0" mnemonicParsing="false" onAction="#submitAnswer" styleClass="btn" text="Submit">
+      <Button fx:id="submitBtn" layoutX="434.0" layoutY="426.0" mnemonicParsing="false" onAction="#submitAnswer" styleClass="btn" text="Submit">
          <font>
             <Font size="16.0" />
          </font>
@@ -51,5 +51,10 @@
             <Font size="16.0" />
          </font>
       </TextArea>
+      <Button fx:id="backBtn" layoutX="847.0" layoutY="426.0" mnemonicParsing="false" onAction="#goback" styleClass="btn" text="Go Back">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

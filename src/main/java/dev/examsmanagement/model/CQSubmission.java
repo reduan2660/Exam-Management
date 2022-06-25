@@ -65,6 +65,30 @@ public class CQSubmission {
 
     }
 
+    public boolean checkSubmission(){
+        boolean returnFlag = true;
+
+        Connection conn = DBconnection.conn;
+        String sqlQ = "SELECT COUNT(*) FROM cqsubmissions WHERE" +
+                " student=\'" + student.getEmail() + "\' AND " +
+                " test=" + test.getId() + " AND " +
+                " question=" + question.getId() + " ;";
+        System.out.println(sqlQ);
+        try{
+            Statement sqlSt = conn.createStatement();
+            ResultSet rs = sqlSt.executeQuery(sqlQ);
+
+            int submission = rs.getInt(1);
+            if(submission > 0){
+                returnFlag = false;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            returnFlag = false;
+        }
+        return returnFlag;
+    }
+
     public boolean saveSubmission(){
         Connection conn = DBconnection.conn;
         String sqlQ = null;

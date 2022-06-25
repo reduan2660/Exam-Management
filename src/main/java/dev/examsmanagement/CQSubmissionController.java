@@ -24,14 +24,24 @@ public class CQSubmissionController extends StudentNavController{
     }
 
     @FXML
-    public void submitAnswer() throws IOException {
+    public void submitAnswer() {
         CQSubmission cqSubmission = new CQSubmission(Session.getCurrentUser(), Session.sessTest, Session.sessQuestion, answer.getText());
-        if(cqSubmission.saveSubmission()){
-            Session.switchScene("StudentTestQuestionView.fxml");
+
+        if(cqSubmission.checkSubmission()){
+            if(cqSubmission.saveSubmission()){
+                submitBtn.setText("Submitted.");
+            }
+            else{
+                submitBtn.setText("Try Again!");
+            }
         }
         else{
-            submitBtn.setText("Try Again!");
+            submitBtn.setText("Already Submitted!");
         }
     }
 
+    @FXML
+    public void goback() throws IOException {
+        Session.switchScene("StudentTestQuestionView.fxml");
+    }
 }
