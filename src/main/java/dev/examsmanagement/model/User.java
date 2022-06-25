@@ -18,6 +18,12 @@ public class User {
         isInstructor = _instrctor;
     }
 
+    public User(String _name, String _email, int _instrctor){
+        name = _name;
+        email = _email;
+        isInstructor = _instrctor;
+    }
+
     public void printUser(){
         System.out.println(" Email: " + email + " Password: " + password + " isinstrctor: " + isInstructor);
     }

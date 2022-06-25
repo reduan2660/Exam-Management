@@ -39,7 +39,7 @@ public class CourseEditController extends InstructorNavController {
         String sqlQ = "SELECT * FROM tests WHERE course=" + Session.sessCourse.getId() + " ORDER BY id DESC;";
 
         try {
-//            --- Run query to bring all courses ---
+//            --- Run query to bring all tests ---
             Statement sqlSt = conn.createStatement();
             ResultSet rs = sqlSt.executeQuery(sqlQ);
 
@@ -68,7 +68,7 @@ public class CourseEditController extends InstructorNavController {
             e.printStackTrace();
         }
 
-//        --- If course selected then save course to session and forward to course edit view
+//        --- If test selected then save test to session and forward to test edit view
         testList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Test>() {
             @Override
             public void changed(ObservableValue<? extends Test> observableValue, Test test, Test t1) {

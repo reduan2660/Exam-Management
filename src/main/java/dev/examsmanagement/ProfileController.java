@@ -21,14 +21,14 @@ public class ProfileController extends InstructorNavController {
         email.setText(Session.getCurrentUser().getEmail());
     }
 
-    @FXML
-    protected void createCourse(ActionEvent event) throws IOException {
-        Session.switchScene("CourseCreateView.fxml", event); // Switch scene to CourseCreateView
+    @Override
+    protected void allCourse() throws IOException {
+        if(Session.getCurrentUser().getIsInstructor() == 1) {
+            Session.switchScene("InstructorView.fxml");
+        }
+        else{
+            Session.switchScene("StudentView.fxml");
+        }
     }
 
-    @FXML
-    protected void logout(ActionEvent event) throws IOException {
-        Session.logout();
-        Session.switchScene("LoginView.fxml", event); // Switch scene to login
-    }
 }
