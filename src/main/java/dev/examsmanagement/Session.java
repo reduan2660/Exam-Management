@@ -17,6 +17,7 @@ public class Session {
     public static Test sessTest = null;
     public static Question sessQuestion = null;
     public static MCQquestion sessMCQ = null;
+    public static CQSubmission sessCQSubmission = null;
     public static Stage primaryStage = null;
 
     public static void setCurrentUser(User _currentUser) {

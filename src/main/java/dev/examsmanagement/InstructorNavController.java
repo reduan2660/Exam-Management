@@ -34,6 +34,11 @@ public class InstructorNavController implements Initializable {
     }
 
     @FXML
+    protected void godashboard(ActionEvent event) throws IOException {
+        Session.switchScene("InstructorDashboardView.fxml", event);
+    }
+
+    @FXML
     protected void logout(ActionEvent event) throws IOException {
         Session.logout();
         Session.switchScene("LoginView.fxml", event); // Switch scene to login

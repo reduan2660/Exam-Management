@@ -13,6 +13,8 @@ public class CQSubmission {
     protected String answer;
     protected int evaluated=0, givenpoints=0;
 
+
+
     public CQSubmission(User student, Test test, Question question, String answer, int evaluated, int givenpoints) {
         this.student = student;
         this.test = test;
@@ -29,6 +31,13 @@ public class CQSubmission {
         this.answer = answer;
     }
 
+    public CQSubmission(int id, User student, Test test, Question question, String answer) {
+        this.id = id;
+        this.student = student;
+        this.test = test;
+        this.question = question;
+        this.answer = answer;
+    }
     public User getStudent() { return student; }
 
     public Test getTest() { return test; }
@@ -41,16 +50,20 @@ public class CQSubmission {
 
     public void setAnswer(String answer) { this.answer = answer; }
 
+    @Override
+    public String toString() {
+        return answer;
+    }
+
     public boolean evaluate(int givenpoints){
         this.givenpoints = givenpoints;
         this.evaluated = 1;
 
         Connection conn = DBconnection.conn;
-        String sqlQ = "UPDATE cqsubmissions " +
-                "SET givenpoints=\'" + this.givenpoints + "\'," +
-                " evaluated=\'" + this.evaluated + "\'" +
+        String sqlQ = "UPDATE cqsubmissions" +
+                " SET givenpoints=" + this.givenpoints + "," +
+                " evaluated=" + this.evaluated + "" +
                 " WHERE id = " + this.id + " ;";
-
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);

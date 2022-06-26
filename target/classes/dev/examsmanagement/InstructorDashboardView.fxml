@@ -5,8 +5,10 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.InstructorController">
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.InstructorDashboardController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24a0ed" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1280.0" />
       <Button layoutX="190.0" layoutY="16.0" mnemonicParsing="false" onAction="#createCourse" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Create New Course" textFill="WHITE">
@@ -21,7 +23,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="992.0" layoutY="16.0" mnemonicParsing="false" onAction="#godashboard" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Dashboard" textFill="WHITE">
+      <Button layoutX="992.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Dashboard" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
@@ -29,6 +31,17 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <ListView fx:id="courseList" editable="true" layoutX="190.0" layoutY="84.0" prefHeight="598.0" prefWidth="878.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
+      <ListView fx:id="publishedTestList" editable="true" layoutX="128.0" layoutY="138.0" prefHeight="544.0" prefWidth="488.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
+      <Text layoutX="320.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Published Tests">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ListView fx:id="unpublishedTestList" editable="true" layoutX="731.0" layoutY="146.0" prefHeight="544.0" prefWidth="472.0" styleClass="list-cell" stylesheets="@../../assets/css/style.css" />
+      <Text layoutX="899.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unpublished Tests">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
