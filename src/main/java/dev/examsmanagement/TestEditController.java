@@ -106,9 +106,6 @@ public class TestEditController extends InstructorNavController {
             }
         });
 
-
-
-
     }
 
     @FXML
@@ -145,7 +142,7 @@ public class TestEditController extends InstructorNavController {
 
     @FXML
     protected void changeTime() throws IOException {
-//        Session.switchScene("TestCreateView.fxml");
+        Session.switchScene("TestTimeEditView.fxml");
     }
 
     @FXML

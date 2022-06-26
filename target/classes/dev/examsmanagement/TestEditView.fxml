@@ -60,7 +60,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="addStudents" layoutX="900.0" layoutY="136.0" mnemonicParsing="false" onAction="#changeTime" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
+      <Button fx:id="changeTimeBtn" layoutX="900.0" layoutY="136.0" mnemonicParsing="false" onAction="#changeTime" style="-fx-background-color: #ffffff;" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Update">
          <font>
             <Font name="Cambria" size="16.0" />
          </font>

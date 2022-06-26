@@ -78,6 +78,26 @@ public class Test {
         return time;
     }
 
+    public boolean setTime(LocalDateTime time) {
+        this.time = time;
+
+        Connection conn = DBconnection.conn;
+        String sqlQ = "UPDATE tests " +
+                "SET time=\'" + this.time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")) + "\'" +
+                " WHERE id = " + this.id + " ;";
+
+        try{
+            Statement sqlSt = conn.createStatement();
+            sqlSt.execute(sqlQ);
+            Log.info("Test time Updated");
+            return true;
+        } catch (SQLException e) {
+            Log.info("Test time Update Failed");
+            e.printStackTrace();
+            return false;
+        }
+    }
+
     public int getDuration() { return duration; }
 
     @Override
