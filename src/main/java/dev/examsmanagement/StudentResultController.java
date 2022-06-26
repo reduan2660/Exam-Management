@@ -42,7 +42,10 @@ public class StudentResultController extends InstructorNavController {
 
             Statement stMCQGivenPoint = conn.createStatement();
             ResultSet rMCQGivenPoint = stMCQGivenPoint.executeQuery(qMCQGivenPoint);
-
+            if(DBconnection.database == DBconnection.mysqlDB) {
+                rCQTotalPoints.next(); rMCQTotalPoints.next();
+                rCQGivenPoint.next(); rMCQGivenPoint.next();
+            }
             int totalPoint = rCQTotalPoints.getInt(1) + rMCQTotalPoints.getInt(1);
             int givenPoint = rCQGivenPoint.getInt(1) + rMCQGivenPoint.getInt(1);
 

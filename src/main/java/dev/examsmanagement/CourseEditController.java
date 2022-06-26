@@ -113,8 +113,7 @@ public class CourseEditController extends InstructorNavController {
 
     @FXML
     protected void addStudents() throws IOException {
-        System.out.println("Add students");
-//        Session.switchScene("AddStudentToCourseView.fxml");
+        Session.switchScene("AddNewStudentToCourseView.fxml");
     }
 
 }

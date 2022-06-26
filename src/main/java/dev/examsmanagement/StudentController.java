@@ -37,7 +37,7 @@ public class StudentController extends StudentNavController {
             ResultSet rs = sqlSt.executeQuery(sqlQ);
 
             while (rs.next()){
-                String sqlQ2 = "SELECT * FROM courses WHERE id=" + rs.getString("course") + ";";
+                String sqlQ2 = "SELECT * FROM courses WHERE id=" + rs.getInt("course") + ";";
                 Statement sqlSt2 = conn.createStatement();
                 ResultSet rs2 = sqlSt2.executeQuery(sqlQ2);
 
@@ -47,10 +47,13 @@ public class StudentController extends StudentNavController {
                     Statement sqlStIns = conn.createStatement();
                     ResultSet rsIns = sqlStIns.executeQuery(sqlQIns);
 
+                    if(DBconnection.database == DBconnection.mysqlDB) { rsIns.next();}
                     User CourseInstructor = new User(rsIns.getString("name"), rsIns.getString("email"), 1);
 
                     Course course = new Course(rs2.getInt("id"), rs2.getString("title"), rs2.getString("description"), CourseInstructor);
                     courseList.getItems().add(course);
+
+                    System.out.println(course);
                 }
             }
         }

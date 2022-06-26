@@ -145,11 +145,24 @@ public class Course {
 
     public boolean addStudents(String[] students){
         Connection conn = DBconnection.conn;
-        String sqlQ = "CREATE Table course_student (" +
-                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "course INTEGER NOT NULL," +
-                "student VARCHAR(255) NOT NULL"+
-                ");";
+
+        String sqlQ = null;
+
+        if(DBconnection.database == DBconnection.mysqlDB) {
+            sqlQ = "CREATE Table course_student (" +
+                    "id INTEGER PRIMARY KEY AUTO_INCREMENT," +
+                    "course INTEGER NOT NULL," +
+                    "student VARCHAR(255) NOT NULL" +
+                    ");";
+        }
+
+        else if(DBconnection.database == DBconnection.sqliteDB) {
+            sqlQ = "CREATE Table course_student (" +
+                    "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    "course INTEGER NOT NULL," +
+                    "student VARCHAR(255) NOT NULL" +
+                    ");";
+        }
         try{
             Statement sqlSt = conn.createStatement();
             sqlSt.execute(sqlQ);

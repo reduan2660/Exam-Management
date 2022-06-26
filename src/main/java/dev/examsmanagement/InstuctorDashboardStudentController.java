@@ -34,6 +34,7 @@ public class InstuctorDashboardStudentController extends InstructorNavController
                 String qUser = "SELECT * FROM users WHERE email=\'" + rs.getString("student") + "\';";
                 Statement stUser = conn.createStatement();
                 ResultSet rUser = stUser.executeQuery(qUser);
+                if(DBconnection.database == DBconnection.mysqlDB) { rUser.next();}
 
                 User student = new User(rUser.getString("name"), rUser.getString("email"), rUser.getInt("isinstructor"));
                 studentList.getItems().add(student);

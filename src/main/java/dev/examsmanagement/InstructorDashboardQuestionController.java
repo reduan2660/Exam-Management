@@ -37,9 +37,11 @@ public class InstructorDashboardQuestionController extends InstructorNavControll
 
                 Statement stUser = conn.createStatement();
                 ResultSet rUser = stUser.executeQuery(qUser);
+                if(DBconnection.database == DBconnection.mysqlDB) { rUser.next();}
 
                 Statement stQuestion = conn.createStatement();
                 ResultSet rQuestion = stQuestion.executeQuery(qQuestion);
+                if(DBconnection.database == DBconnection.mysqlDB) { rQuestion.next();}
 
                 Test test = Session.sessTest;
                 User student = new User(rUser.getString("name"), rUser.getString("email"), rUser.getInt("isinstructor"));
@@ -58,9 +60,11 @@ public class InstructorDashboardQuestionController extends InstructorNavControll
 
                 Statement stUser = conn.createStatement();
                 ResultSet rUser = stUser.executeQuery(qUser);
+                if(DBconnection.database == DBconnection.mysqlDB) { rUser.next();}
 
                 Statement stQuestion = conn.createStatement();
                 ResultSet rQuestion = stQuestion.executeQuery(qQuestion);
+                if(DBconnection.database == DBconnection.mysqlDB) { rQuestion.next();}
 
                 Test test = Session.sessTest;
                 User student = new User(rUser.getString("name"), rUser.getString("email"), rUser.getInt("isinstructor"));

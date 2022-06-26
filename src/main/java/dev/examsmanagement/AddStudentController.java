@@ -27,6 +27,12 @@ public class AddStudentController extends InstructorNavController {
     }
 
     @FXML
+    protected void addNewStudentsToCourse() throws IOException {
+        addStudentsToCourse();
+        Session.switchScene("CourseEditView.fxml");
+    }
+
+    @FXML
     protected void createCourseWithoutTest(ActionEvent event) throws IOException {
         addStudentsToCourse();
         Session.switchScene("InstructorView.fxml", event);

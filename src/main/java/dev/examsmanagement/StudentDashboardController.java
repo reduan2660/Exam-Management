@@ -37,10 +37,12 @@ public class StudentDashboardController extends StudentNavController{
                 String qCourse = "SELECT * FROM courses WHERE id=" + rsCourses.getInt("course") + ";";
                 Statement stCourse = conn.createStatement();
                 ResultSet rsCourse = stCourse.executeQuery(qCourse);
+                if(DBconnection.database == DBconnection.mysqlDB) { rsCourse.next();}
 
                 String qInstructor = "SELECT * FROM users WHERE email=\'" + rsCourse.getString("instructor") +"\';";
                 Statement stInstructor = conn.createStatement();
                 ResultSet rsInstructor = stInstructor.executeQuery(qInstructor);
+                if(DBconnection.database == DBconnection.mysqlDB) { rsInstructor.next();}
 
                 User instructor = new User(rsInstructor.getString("name"), rsInstructor.getString("email"), rsInstructor.getInt("isinstructor"));
                 Course course = new Course(rsCourse.getInt("id"), rsCourse.getString("title"), rsCourse.getString("description"), instructor);
