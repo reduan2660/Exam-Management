@@ -83,6 +83,20 @@ public class StudentTestQuestionsController extends StudentNavController{
                 }
             }
         });
+
+        //        --- MCQ Selection
+        mcqQuestionList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<MCQquestion>() {
+            @Override
+            public void changed(ObservableValue<? extends MCQquestion> observableValue, MCQquestion mcQquestion, MCQquestion t1) {
+                Session.sessMCQ = mcqQuestionList.getSelectionModel().getSelectedItem();
+                try {
+                    Session.switchScene("MCQSubmissionView.fxml");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
     }
 
     @FXML
