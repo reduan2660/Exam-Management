@@ -11437,3 +11437,363 @@
   <message>Closing Database Connection</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:11:07.143832400Z</date>
+  <millis>1656267067143</millis>
+  <nanos>832400</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:11:15.738800800Z</date>
+  <millis>1656267075738</millis>
+  <nanos>800800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Test Published</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:15.738800800Z</date>
+  <millis>1656267075738</millis>
+  <nanos>800800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Test Published</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:15.738800800Z</date>
+  <millis>1656267075738</millis>
+  <nanos>800800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Test Published</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:28.893252700Z</date>
+  <millis>1656267088893</millis>
+  <nanos>252700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:28.893252700Z</date>
+  <millis>1656267088893</millis>
+  <nanos>252700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:28.893252700Z</date>
+  <millis>1656267088893</millis>
+  <nanos>252700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:11:28.893252700Z</date>
+  <millis>1656267088893</millis>
+  <nanos>252700</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:23:20.275309200Z</date>
+  <millis>1656267800275</millis>
+  <nanos>309200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:23:45.321403800Z</date>
+  <millis>1656267825321</millis>
+  <nanos>403800</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:23:45.321403800Z</date>
+  <millis>1656267825321</millis>
+  <nanos>403800</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:23:45.321403800Z</date>
+  <millis>1656267825321</millis>
+  <nanos>403800</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:24:38.489941300Z</date>
+  <millis>1656267878489</millis>
+  <nanos>941300</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:24:52.688711Z</date>
+  <millis>1656267892688</millis>
+  <nanos>711000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:24:52.688711Z</date>
+  <millis>1656267892688</millis>
+  <nanos>711000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:24:52.688711Z</date>
+  <millis>1656267892688</millis>
+  <nanos>711000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:32:14.713854600Z</date>
+  <millis>1656268334713</millis>
+  <nanos>854600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:32:26.247567Z</date>
+  <millis>1656268346247</millis>
+  <nanos>567000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:32:26.247567Z</date>
+  <millis>1656268346247</millis>
+  <nanos>567000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:32:26.247567Z</date>
+  <millis>1656268346247</millis>
+  <nanos>567000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:42:57.023010200Z</date>
+  <millis>1656268977023</millis>
+  <nanos>10200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:43:21.560278900Z</date>
+  <millis>1656269001560</millis>
+  <nanos>278900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:43:21.560278900Z</date>
+  <millis>1656269001560</millis>
+  <nanos>278900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:43:21.560278900Z</date>
+  <millis>1656269001560</millis>
+  <nanos>278900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-26T18:43:52.881705200Z</date>
+  <millis>1656269032881</millis>
+  <nanos>705200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Creating New sqlite Database Connection </message>
+</record>
+<record>
+  <date>2022-06-26T18:44:14.714855200Z</date>
+  <millis>1656269054714</millis>
+  <nanos>855200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:44:14.714855200Z</date>
+  <millis>1656269054714</millis>
+  <nanos>855200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+<record>
+  <date>2022-06-26T18:44:14.714855200Z</date>
+  <millis>1656269054714</millis>
+  <nanos>855200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>dev.examsmanagement.Log</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>Closing Database Connection</message>
+</record>
+</log>

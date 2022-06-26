@@ -13,6 +13,7 @@ import java.util.Objects;
 
 public class Session {
     private static User currentUser = null;
+    public static User sessStudent = null;
     public static Course sessCourse = null;
     public static Test sessTest = null;
     public static Question sessQuestion = null;

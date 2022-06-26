@@ -101,6 +101,10 @@ public class Test {
 
     public int getDuration() { return duration; }
 
+    public Course getCourse() {
+        return course;
+    }
+
     public boolean publishResult(){
         resultPublished = 1;
         Connection conn = DBconnection.conn;

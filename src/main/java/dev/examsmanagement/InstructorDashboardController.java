@@ -100,5 +100,18 @@ public class InstructorDashboardController extends InstructorNavController{
                 }
             }
         });
+
+        //        --- If published test is selected then save test to session and forward to dashboard question view
+        publishedTestList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Test>() {
+            @Override
+            public void changed(ObservableValue<? extends Test> observableValue, Test test, Test t1) {
+                Session.sessTest = publishedTestList.getSelectionModel().getSelectedItem();
+                try {
+                    Session.switchScene("InstructorDashboardStudentView.fxml");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }

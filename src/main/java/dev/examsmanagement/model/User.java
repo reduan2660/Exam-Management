@@ -24,8 +24,9 @@ public class User {
         isInstructor = _instrctor;
     }
 
-    public void printUser(){
-        System.out.println(" Email: " + email + " Password: " + password + " isinstrctor: " + isInstructor);
+    @Override
+    public String toString() {
+        return name;
     }
 
     public int getIsInstructor() {

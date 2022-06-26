@@ -104,7 +104,7 @@ public class MCQSubmission {
                     ");";
         }
         else if(DBconnection.database == DBconnection.sqliteDB) {
-            sqlQ = "CREATE Table mcqsubmissions (" +
+            sqlQ = "CREATE Table alvealve (" +
                     "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "student VARCHAR(255) NOT NULL," +
                     "test INTEGER NOT NULL," +
