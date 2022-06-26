@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.examsmanagement.QuestionController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24a0ed" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1280.0" />
+        <Button layoutX="190.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Create New Course" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="75.0" layoutY="16.0" mnemonicParsing="false" onAction="#allCourse" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="All Courses" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="profileBtn" layoutX="887.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Profile" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="992.0" layoutY="16.0" mnemonicParsing="false" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Dashboard" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="1136.0" layoutY="15.0" mnemonicParsing="false" onAction="#logout" styleClass="nav-btn" stylesheets="@../../assets/css/style.css" text="Log Out" textFill="WHITE">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+      <Label layoutX="253.0" layoutY="116.0" text="Question:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="304.0" text="Points:">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="questionPoint" layoutX="386.0" layoutY="300.0" prefHeight="29.0" prefWidth="560.0" text="1">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font></TextField>
+      <TextArea fx:id="questionTitle" layoutX="386.0" layoutY="110.0" prefHeight="136.0" prefWidth="560.0">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font></TextArea>
+      <Button layoutX="813.0" layoutY="401.0" mnemonicParsing="false" onAction="#addQuestion" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add Question">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="379.0" layoutY="399.0" mnemonicParsing="false" onAction="#createTest" style="-fx-background-color: #ffffff;" stylesheets="@../../assets/css/style.css" text="Done">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="700.0" layoutY="401.0" mnemonicParsing="false" onAction="#addMCQ" styleClass="btn" stylesheets="@../../assets/css/style.css" text="Add MCQ">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>

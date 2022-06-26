@@ -1,0 +1,45 @@
+.container {
+  -fx-background-color: white;
+  /* -fx-border-color: gray; */
+  -fx-border-radius: 10;
+}
+
+.btn {
+  -fx-background-color: #24a0ed;
+  -fx-color: white;
+}
+
+.nav-btn {
+  -fx-background-color: #24a0ed;
+  -fx-color: white;
+  -fx-font-family: "Cambria";
+  -fx-font-size: 16;
+}
+
+.textBtn {
+  -fx-background-color: white;
+  -fx-color: #eeeeee00;
+  -fx-border-color: #eeeeee00;
+}
+
+.list-cell:filled:selected:focused,
+.list-cell:filled:selected {
+  /* 3:, 4: */
+  -fx-background-color: #24a0ed;
+  -fx-text-fill: white; /* 5 */
+}
+.list-cell {
+  -fx-font-size: 16;
+  -fx-padding: 6;
+  -fx-text-fill: black; /* 5 */
+}
+.list-cell:odd {
+  -fx-background-color: white; /* 1 */
+}
+.list-cell:even {
+  -fx-background-color: white;
+}
+.list-cell:filled:hover {
+  -fx-background-color: #24a0ed;
+  -fx-text-fill: white; /* 5 */
+}

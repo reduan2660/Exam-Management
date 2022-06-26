@@ -83,7 +83,6 @@ public class CQSubmission {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            returnFlag = false;
         }
         return returnFlag;
     }

@@ -17,6 +17,7 @@ public class Test {
     private int duration;
     private boolean allowLateSubmission, randomQuestions;
     private Course course;
+    private int resultPublished = 0;
 
     public Test(String _title,
                 String _instructions,
@@ -100,6 +101,26 @@ public class Test {
 
     public int getDuration() { return duration; }
 
+    public boolean publishResult(){
+        resultPublished = 1;
+        Connection conn = DBconnection.conn;
+        String sqlQ = "UPDATE tests " +
+                "SET resultPublished=\'" + resultPublished + "\'" +
+                " WHERE id = " + id + " ;";
+
+        try{
+            Statement sqlSt = conn.createStatement();
+            sqlSt.execute(sqlQ);
+            Log.info("Test Published");
+            return true;
+        } catch (SQLException e) {
+            Log.info("Test Publish Failed");
+            e.printStackTrace();
+            return false;
+        }
+
+    }
+
     @Override
     public String toString() {
         return title + " at " + DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM).format(time);
@@ -144,7 +165,8 @@ public class Test {
                     "duration INTEGER NOT NULL," +
                     "course INTEGER NOT NULL," +
                     "allowLateSubmission INTEGER NOT NULL," +
-                    "randomQuestions INTEGER NOT NULL" +
+                    "randomQuestions INTEGER NOT NULL," +
+                    "resultPublished INTEGER NOT NULL" +
                     ");";
         }
         else if(DBconnection.database == DBconnection.sqliteDB) {
@@ -156,7 +178,8 @@ public class Test {
                     "duration INTEGER NOT NULL," +
                     "course INTEGER NOT NULL," +
                     "allowLateSubmission INTEGER NOT NULL," +
-                    "randomQuestions INTEGER NOT NULL" +
+                    "randomQuestions INTEGER NOT NULL," +
+                    "resultPublished INTEGER NOT NULL" +
                     ");";
         }
         try{
@@ -167,7 +190,7 @@ public class Test {
 //            e.printStackTrace();
         }
 
-        sqlQ = "INSERT INTO tests(title, instructions, time, duration, course, allowLateSubmission, randomQuestions) VALUES(?,?,?,?,?,?,?);";
+        sqlQ = "INSERT INTO tests(title, instructions, time, duration, course, allowLateSubmission, randomQuestions, resultPublished) VALUES(?,?,?,?,?,?,?,?);";
         try{
             PreparedStatement sqlSt = conn.prepareStatement(sqlQ);
             sqlSt.setString(1, title);
@@ -188,6 +211,7 @@ public class Test {
             else{
                 sqlSt.setInt(7, 0);
             }
+            sqlSt.setInt(8, resultPublished);
 
             sqlSt.executeUpdate();
 
