@@ -18,12 +18,11 @@
 
 > Next up
 
-- Print Question
+- Better Result Analysis
+
+> Done
 - Let students take exam
 - Change time, add & remove student
-
-  > Done
-
 - Edit courses and tests
 - Edit Questions
 - Single Connection
