@@ -47,7 +47,7 @@ public class StudentDashboardController extends StudentNavController{
                 User instructor = new User(rsInstructor.getString("name"), rsInstructor.getString("email"), rsInstructor.getInt("isinstructor"));
                 Course course = new Course(rsCourse.getInt("id"), rsCourse.getString("title"), rsCourse.getString("description"), instructor);
 
-                String qTest = "SELECT * FROM tests WHERE course=" + rsCourses.getInt("course") + ";";
+                String qTest = "SELECT * FROM tests WHERE resultPublished=1 AND course=" + rsCourses.getInt("course") + ";";
                 Statement stTest = conn.createStatement();
                 ResultSet rsTest = stTest.executeQuery(qTest);
 

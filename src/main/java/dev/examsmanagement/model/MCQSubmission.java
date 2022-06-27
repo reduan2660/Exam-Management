@@ -43,29 +43,6 @@ public class MCQSubmission {
 
     public void setAnswer(int answer) { this.answer = answer; }
 
-    public boolean evaluate(int givenpoints){
-        this.givenpoints = givenpoints;
-        this.evaluated = 1;
-
-        Connection conn = DBconnection.conn;
-        String sqlQ = "UPDATE mcqsubmissions " +
-                "SET givenpoints=\'" + this.givenpoints + "\'," +
-                " evaluated=\'" + this.evaluated + "\'" +
-                " WHERE id = " + this.id + " ;";
-
-        try{
-            Statement sqlSt = conn.createStatement();
-            sqlSt.execute(sqlQ);
-            Log.info("MCQSubmission Updated");
-            return true;
-        } catch (SQLException e) {
-            Log.info("MCQSubmission Update Failed");
-            e.printStackTrace();
-            return false;
-        }
-
-    }
-
     public boolean checkSubmission(){
         boolean returnFlag = true;
 
