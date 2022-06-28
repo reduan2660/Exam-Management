@@ -10,53 +10,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/dependency/sqlite-jdbc-3.36.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="mysql.connector.java" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/build/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/demo/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/generated/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/legacy/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/main/core-api/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/main/core-impl/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/main/protocol-impl/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/main/user-api/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/main/user-impl/java" />
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.28.zip!/mysql-connector-java-8.0.28/src/test/java" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/dependencies/sqlite-jdbc-3.36.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="io.github.cdimascio.dotenv.java" level="application" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/jdbc/sqlite-jdbc-3.36.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="io.github.cdimascio.dotenv.java" level="project" />
+    <orderEntry type="library" name="sqlite-jdbc-3.36.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.1" level="project" />
@@ -82,5 +38,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.29" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.19.4" level="project" />
   </component>
 </module>

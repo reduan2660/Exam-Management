@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="io.github.cdimascio.dotenv.java" type="repository">
+    <properties maven-id="io.github.cdimascio:dotenv-java:2.2.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dotenv-java-2.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/dotenv-java-2.2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/dotenv-java-2.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
