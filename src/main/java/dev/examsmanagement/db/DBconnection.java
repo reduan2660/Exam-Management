@@ -12,7 +12,7 @@ public class DBconnection  {
     public static String mysqlDB = databases[0];
     public static String sqliteDB = databases[1];
 
-    public static String database = mysqlDB;
+    public static String database = sqliteDB;
 
     public static Connection conn = null;
 
